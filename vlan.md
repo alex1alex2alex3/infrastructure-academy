@@ -1,7 +1,6 @@
 ---
 layout: page
 title: VLAN
-nav_exclude: true
+parent: Networking
+nav_order: 1
 ---
-
-# VLAN
