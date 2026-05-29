@@ -1,27 +1,78 @@
-/* Matrix Theme */
+/* Matrix Theme - Netværks Akademiet */
 
-.site-title {
-  color: #00ff41 !important;
-  text-shadow: 0 0 10px #00ff41;
+body {
+  background-color: #050805 !important;
+  color: #d6ffd6 !important;
 }
 
+/* Venstre menu */
+.side-bar {
+  background-color: #020402 !important;
+  border-right: 1px solid #00ff41 !important;
+}
+
+/* Topbar / søgeområde */
+.site-header {
+  background-color: #020402 !important;
+  border-bottom: 1px solid #003b12 !important;
+}
+
+.search {
+  border: none !important;
+}
+
+/* Titel/logo */
+.site-title {
+  color: #00ff41 !important;
+  font-weight: bold;
+  text-shadow: 0 0 8px #00ff41;
+}
+
+/* Overskrifter */
 h1, h2, h3, h4 {
   color: #00ff41 !important;
   text-shadow: 0 0 5px #00ff41;
 }
 
+/* Almindelig tekst */
+.main-content,
+.main-content p,
+.main-content li {
+  color: #d6ffd6 !important;
+}
+
+/* Links */
 a {
   color: #39ff14 !important;
 }
 
-.side-bar {
-  border-right: 1px solid #00ff41;
+a:hover {
+  color: #b6ffb6 !important;
+  text-shadow: 0 0 6px #00ff41;
 }
 
-.search-input {
-  border: 1px solid #00ff41 !important;
+/* Menu-links */
+.nav-list .nav-list-item .nav-list-link {
+  color: #39ff14 !important;
 }
 
-code {
+.nav-list .nav-list-item .nav-list-link.active {
   color: #00ff41 !important;
+  background-color: #061406 !important;
+  font-weight: bold;
+  text-shadow: 0 0 5px #00ff41;
+}
+
+/* Søgefelt */
+.search-input {
+  background-color: #020402 !important;
+  color: #00ff41 !important;
+}
+
+/* Kode */
+pre,
+code {
+  background-color: #020402 !important;
+  color: #00ff41 !important;
+  border: 1px solid #003b12 !important;
 }
