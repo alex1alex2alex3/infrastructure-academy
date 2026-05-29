@@ -1,5 +1,5 @@
 ---
 layout: page
-title: Networking
+title: Netværk
 has_children: true
 ---
