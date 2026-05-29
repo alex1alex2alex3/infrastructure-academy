@@ -59,6 +59,13 @@ h4 {
   text-shadow: 0 0 1px rgba(0,255,65,0.15);
 }
 
+/* KATEGORIER */
+
+h2 {
+  letter-spacing: 1px;
+  font-weight: 700;
+}
+
 /* Brødtekst */
 
 .main-content,
@@ -138,17 +145,16 @@ code {
   color: #000000;
 }
 
-.main-content h3,
-.main-content p {
-  margin-left: 20px;
-}
-h2 {
-  letter-spacing: 4px;
-  font-weight: 700;
-}
 /* Højre side */
 
 .main-content-wrap,
 .main-content {
   background-color: #0b0f0b !important;
+}
+
+/* Mere plads til indhold */
+
+.main-content {
+  max-width: 1200px !important;
+  padding-left: 35px !important;
 }
