@@ -145,14 +145,17 @@ code {
   color: #000000;
 }
 
-/* Højre side */
+/* Højre side helt ud */
 
+.main,
 .main-content-wrap,
-.main-content {
+.main-content,
+.page,
+.page-content {
   background-color: #0b0f0b !important;
 }
 
-.main-content-wrap {
+.main {
   width: 100% !important;
   max-width: none !important;
 }
@@ -160,6 +163,4 @@ code {
 .main-content {
   max-width: none !important;
   width: 100% !important;
-  padding-left: 35px !important;
-  padding-right: 35px !important;
 }
