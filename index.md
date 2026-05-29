@@ -8,11 +8,11 @@ nav_order: 1
 
 Dokumentation, labs og guides inden for netværk, sikkerhed, Linux, Windows Server, virtualisering og cloud.
 
-📚 Guides • 🧪 Labs • 🌐 Netværk • 🔥 Firewall • 🐧 Linux • ☁️ Cloud
+
 
 ---
 
-## 🚀 Kategorier
+# 🚀 Kategorier
 
 ### 🌐 Netværk
 VLAN, OSPF, routing, switching og netværksdesign.
