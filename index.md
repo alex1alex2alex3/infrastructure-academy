@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: home
 title: Forside
 nav_order: 1
 ---
