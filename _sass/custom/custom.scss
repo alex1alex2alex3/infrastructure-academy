@@ -3,6 +3,7 @@
 body {
   background-color: #050805 !important;
   color: #d6ffd6 !important;
+  overflow-x: hidden;
 }
 
 /* Venstre menu */
@@ -116,4 +117,31 @@ code {
 ::selection {
   background: #00ff41;
   color: #000000;
+}
+
+body::before {
+  content: "01010111010100110101001010110100101010100101101001010101";
+  position: fixed;
+  top: -100%;
+  left: 0;
+  width: 100%;
+  height: 200%;
+  color: rgba(0, 255, 65, 0.12);
+  font-family: monospace;
+  font-size: 18px;
+  line-height: 22px;
+  letter-spacing: 14px;
+  word-break: break-all;
+  pointer-events: none;
+  z-index: -1;
+  animation: matrix-rain 12s linear infinite;
+}
+
+@keyframes matrix-rain {
+  from {
+    transform: translateY(-30%);
+  }
+  to {
+    transform: translateY(30%);
+  }
 }
