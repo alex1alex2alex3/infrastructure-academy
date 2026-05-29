@@ -152,9 +152,14 @@ code {
   background-color: #0b0f0b !important;
 }
 
-/* Mere plads til indhold */
+.main-content-wrap {
+  width: 100% !important;
+  max-width: none !important;
+}
 
 .main-content {
-  max-width: 1200px !important;
+  max-width: none !important;
+  width: 100% !important;
   padding-left: 35px !important;
+  padding-right: 35px !important;
 }
