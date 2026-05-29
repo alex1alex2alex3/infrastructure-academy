@@ -1,7 +1,6 @@
 ---
 layout: page
-title: PORTFORWARDING
-nav_exclude: true
+title: Port Forwarding
+parent: Firewall
+nav_order: 2
 ---
-
-# Port forwarding
