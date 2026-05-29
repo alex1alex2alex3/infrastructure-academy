@@ -1,4 +1,6 @@
-layout - page
-title - PORTFORWARDING
+---
+layout: page
+title: PORT FORWARDING
+---
 
 # PORT FORWARDING
