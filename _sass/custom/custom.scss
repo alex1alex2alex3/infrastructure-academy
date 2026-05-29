@@ -118,17 +118,5 @@ code {
 /* Matrix GIF i sidebar */
 
 .side-bar {
-  background-image:
-    linear-gradient(
-      rgba(0,0,0,0.75),
-      rgba(0,0,0,0.75)
-    ),
-    url('/infrastructure-academy/assets/images/matrix_rain_smoother.gif') !important;
-
-  background-size: cover !important;
-  background-position: center !important;
-  background-repeat: no-repeat !important;
-
-  border-right: 1px solid #00ff41 !important;
-  overflow-x: hidden !important;
+  background: red !important;
 }
