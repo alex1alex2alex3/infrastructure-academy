@@ -12,7 +12,9 @@ Dokumentation, labs og guides inden for netværk, sikkerhed, Linux, Windows Serv
 
 ---
 
-# 🚀 Kategorier
+# 🚀KATEGORIER
+
+
 
 ### 🌐 Netværk
 VLAN, OSPF, routing, switching og netværksdesign.
