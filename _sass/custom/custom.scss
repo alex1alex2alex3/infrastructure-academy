@@ -117,10 +117,14 @@ code {
 
 /* Matrix GIF i sidebar */
 
-/* Matrix GIF i sidebar */
-
 .side-bar {
-  background-image: url('/assets/images/matrix_rain_smoother.gif') !important;
+  background-image:
+    linear-gradient(
+      rgba(0,0,0,0.80),
+      rgba(0,0,0,0.80)
+    ),
+    url('/assets/images/matrix_rain_smoother.gif') !important;
+
   background-size: cover !important;
   background-position: center !important;
   background-repeat: no-repeat !important;
