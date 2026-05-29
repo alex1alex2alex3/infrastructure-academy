@@ -6,11 +6,11 @@ nav_order: 1
 
 
 
-Velkommen til Alis Netværks Akademi
+# Velkommen til Alis Netværks Akademi
 
 Her finder du guides, labs og dokumentation under de forskellige kategorier. 
 
-## Kategorierne
+### Kategorierne
 
 - [Netværk](netværk)
 - [Firewall](firewall)
