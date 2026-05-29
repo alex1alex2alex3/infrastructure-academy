@@ -14,7 +14,7 @@ Dokumentation, labs og guides inden for netværk, sikkerhed, Linux, Windows Serv
 
 # 🚀KATEGORIER
 
-
+&nbsp;
 
 ### 🌐 Netværk
 VLAN, OSPF, routing, switching og netværksdesign.
