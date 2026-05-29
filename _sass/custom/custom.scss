@@ -76,3 +76,13 @@ code {
   color: #00ff41 !important;
   border: 1px solid #003b12 !important;
 }
+/* Hover-effekt på menu */
+
+.nav-list .nav-list-item .nav-list-link:hover {
+  color: #00ff41 !important;
+  background-color: #061406 !important;
+  text-shadow: 0 0 8px #00ff41;
+  box-shadow: 0 0 10px rgba(0, 255, 65, 0.6);
+  border-radius: 6px;
+  transition: all 0.2s ease-in-out;
+}
