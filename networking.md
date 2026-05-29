@@ -1,13 +1,6 @@
 ---
 layout: page
 title: Networking
+has_children: true
+nav_order: 2
 ---
-
-## Emner
-
-- [VLAN](vlan)
-- [Switching](switching)
-- [STP](stp)
-- [OSPF](ospf)
-- [BGP](bgp)
-- [RIP](rip)
