@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Security
+title: Sikkerhed
+has_children: true
+nav_order: 7
 ---
-
-# Security
