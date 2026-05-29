@@ -1,7 +1,6 @@
 ---
 layout: page
 title: OSPF
-nav_exclude: true
+parent: Networking
+nav_order: 2
 ---
-
-# OSPF
