@@ -9,9 +9,22 @@ body {
 /* Sidebar */
 
 .side-bar {
-  background-color: #020402 !important;
+  background-image:
+    linear-gradient(
+      rgba(0,0,0,0.75),
+      rgba(0,0,0,0.75)
+    ),
+    url('/assets/images/matrix_rain_smoother.gif') !important;
+
+  background-size: cover !important;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+
   border-right: 1px solid #00ff41 !important;
   overflow-x: hidden !important;
+
+  /* Cyan cyber-glow */
+  box-shadow: 2px 0 12px rgba(0,191,255,0.25);
 }
 
 /* Topbar */
@@ -25,16 +38,19 @@ body {
   border: none !important;
 }
 
-/* Titel */
+/* Logo */
 
 .site-title {
   color: #00ff41 !important;
+
   text-shadow:
     0 0 5px #00ff41,
     0 0 10px #00ff41,
-    0 0 20px #00ff41;
+    0 0 15px #00bfff;
 }
+
 /* Overskrifter */
+
 h1,
 h2,
 h3,
@@ -59,7 +75,7 @@ a {
 
 a:hover {
   color: #b6ffb6 !important;
-  text-shadow: 0 0 6px #00ff41;
+  text-shadow: 0 0 4px rgba(0,255,65,0.4);
 }
 
 /* Navigation */
@@ -74,9 +90,12 @@ a:hover {
 .nav-list .nav-list-item .nav-list-link:hover {
   color: #ffffff !important;
   background-color: rgba(0,255,65,0.15) !important;
+
   box-shadow:
     inset 0 0 10px rgba(0,255,65,0.5),
     0 0 10px rgba(0,255,65,0.3);
+
+  border-radius: 6px;
 }
 
 /* Aktiv side */
@@ -85,7 +104,10 @@ a:hover {
   color: #00ff41 !important;
   background-color: #061406 !important;
   font-weight: bold;
-  box-shadow: inset 0 0 10px rgba(0,255,65,0.3);
+
+  box-shadow:
+    inset 0 0 10px rgba(0,255,65,0.3);
+
   border-radius: 6px;
 }
 
@@ -114,58 +136,4 @@ code {
 ::selection {
   background: #00ff41;
   color: #000000;
-}
-
-/* Matrix GIF i sidebar */
-
-.side-bar {
-  background-image:
-    linear-gradient(
-      rgba(0,0,0,0.75),
-      rgba(0,0,0,0.75)
-    ),
-    url('/assets/images/matrix_rain_smoother.gif') !important;
-
-  background-size: cover !important;
-  background-position: center !important;
-  background-repeat: no-repeat !important;
-
-  border-right: 1px solid #00ff41 !important;
-  overflow-x: hidden !important;
-}
-/* Kategori-kort */
-
-.category-card {
-  background: rgba(0, 255, 65, 0.03);
-  border: 1px solid rgba(0, 255, 65, 0.2);
-  border-radius: 10px;
-  padding: 20px;
-  margin-bottom: 20px;
-
-  transition: all 0.3s ease;
-}
-
-.category-card:hover {
-  border-color: #00ff41;
-  box-shadow: 0 0 15px rgba(0,255,65,0.2);
-  transform: translateY(-2px);
-}
-
-/* Cyan cyber-glow */
-
-.side-bar {
-  box-shadow: 2px 0 12px rgba(0,191,255,0.25);
-}
-
-.site-title {
-  text-shadow:
-    0 0 5px #00ff41,
-    0 0 10px #00ff41,
-    0 0 15px #00bfff;
-}
-
-h1, h2, h3 {
-  text-shadow:
-    0 0 5px #00ff41,
-    0 0 10px #00bfff;
 }
