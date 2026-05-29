@@ -3,8 +3,6 @@ layout: page
 title: Networking
 ---
 
-# Networking
-
 ## Emner
 
 - [VLAN](vlan)
