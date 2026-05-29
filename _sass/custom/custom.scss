@@ -1,3 +1,27 @@
-h1 {
-  color: red !important;
+/* Matrix Theme */
+
+.site-title {
+  color: #00ff41 !important;
+  text-shadow: 0 0 10px #00ff41;
+}
+
+h1, h2, h3, h4 {
+  color: #00ff41 !important;
+  text-shadow: 0 0 5px #00ff41;
+}
+
+a {
+  color: #39ff14 !important;
+}
+
+.side-bar {
+  border-right: 1px solid #00ff41;
+}
+
+.search-input {
+  border: 1px solid #00ff41 !important;
+}
+
+code {
+  color: #00ff41 !important;
 }
