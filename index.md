@@ -1,6 +1,6 @@
 ---
-layout: home
-title: Home
+layout: Forside
+title: Forside
 nav_order: 1
 ---
 
