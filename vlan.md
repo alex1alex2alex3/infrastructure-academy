@@ -1,16 +1,6 @@
 ---
 layout: page
-title: VLAN Guide
+title: VLAN
 ---
 
-# VLAN Guide
-
-## Hvad er VLAN?
-
-Et VLAN er...
-
-## Fordele
-
-- Segmentering
-- Sikkerhed
-- Mindre broadcast
+# VLAN
