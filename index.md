@@ -4,13 +4,13 @@ title: Home
 nav_order: 1
 ---
 
-# Alis Netværksakademi
+# Alis Netværks Akademi
 
-Velkommen til min IT-infrastruktur vidensbase.
+Velkommen til IT-infrastruktur vidensbasen!
 
-Her finder du guides, labs og dokumentation 
+Her finder du guides, labs og dokumentation under de forskellige kategorier. 
 
-## Kategorier
+## Kategorierne
 
 - [Networking](networking)
 - [Firewall](firewall)
