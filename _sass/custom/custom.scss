@@ -90,9 +90,12 @@ code {
 
 /* Matrix GIF baggrund */
 
-.main-content-wrap {
-  background-image: url('/infrastructure-academy/assets/images/matrix_rain_smoother.gif');
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
+body,
+.main,
+.main-content-wrap,
+.main-content {
+  background-image: url('/infrastructure-academy/assets/images/matrix_rain_smoother.gif') !important;
+  background-size: cover !important;
+  background-position: center !important;
+  background-attachment: fixed !important;
 }
