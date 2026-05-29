@@ -134,3 +134,20 @@ code {
   border-right: 1px solid #00ff41 !important;
   overflow-x: hidden !important;
 }
+/* Kategori-kort */
+
+.category-card {
+  background: rgba(0, 255, 65, 0.03);
+  border: 1px solid rgba(0, 255, 65, 0.2);
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 20px;
+
+  transition: all 0.3s ease;
+}
+
+.category-card:hover {
+  border-color: #00ff41;
+  box-shadow: 0 0 15px rgba(0,255,65,0.2);
+  transform: translateY(-2px);
+}
