@@ -1,6 +1,34 @@
 ---
 ---
 
+/* Logo/Titel i venstre side */
+.site-title {
+  color: #ff6600 !important;
+  font-weight: bold;
+}
+
+/* Hovedoverskrifter */
 h1 {
-  color: red !important;
+  color: #ff6600 !important;
+}
+
+/* Underoverskrifter */
+h2, h3 {
+  color: #ff9933 !important;
+}
+
+/* Links */
+a {
+  color: #4da6ff !important;
+}
+
+/* Aktiv menu */
+.nav-list .nav-list-item .nav-list-link.active {
+  color: #ff6600 !important;
+  font-weight: bold;
+}
+
+/* Hover på menu */
+.nav-list-link:hover {
+  color: #ff9933 !important;
 }
