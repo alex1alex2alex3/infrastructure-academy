@@ -12,11 +12,11 @@ Her finder du guides, labs og dokumentation under de forskellige kategorier.
 
 ## Kategorierne
 
-- [Networking](networking)
+- [Netværk](netværk)
 - [Firewall](firewall)
 - [Windows Server](windows-server)
 - [Linux](linux)
-- [Virtualization](virtualization)
+- [Virtualisering](virtualisering)
 - [Cloud](cloud)
-- [Security](security)
-- [Projects](projects)
+- [Sikkerhed](sikkerhed)
+- [Projekter](projekter)
