@@ -1,9 +1,6 @@
 ---
 layout: page
 title: Firewall
+has_children: true
+nav_order: 3
 ---
-
-## Emner
-
-- [Access Control Lists (ACL)](acl)
-- [Port Forwarding](portforwarding)
