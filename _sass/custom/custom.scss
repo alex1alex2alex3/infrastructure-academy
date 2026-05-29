@@ -164,3 +164,19 @@ code {
   max-width: none !important;
   width: 100% !important;
 }
+/* Fix search/topbar felt */
+
+.site-header,
+.search,
+.search-input-wrap {
+  background-color: #020402 !important;
+}
+
+.search-input {
+  background-color: #020402 !important;
+  color: #00ff41 !important;
+}
+
+.main-header {
+  background-color: #020402 !important;
+}
