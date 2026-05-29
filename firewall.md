@@ -7,5 +7,5 @@ title: Firewall
 
 ## Emner
 
-- [ACL](accesslister)
-- [PORT FORWARDING](port forwarding)
+- [Access Control Lists (ACL)](acl)
+- [Port Forwarding](portforwarding)
