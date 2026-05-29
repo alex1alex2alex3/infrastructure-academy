@@ -1,34 +1,71 @@
 ---
 ---
 
-/* Logo/Titel i venstre side */
+/* Matrix theme */
+
+/* Baggrund */
+body {
+  background-color: #050805 !important;
+  color: #c8ffc8 !important;
+}
+
+/* Venstre menu og topbar */
+.side-bar,
+.site-header {
+  background-color: #020402 !important;
+  border-color: #00ff41 !important;
+}
+
+/* Sidetitel */
 .site-title {
-  color: #ff6600 !important;
+  color: #00ff41 !important;
   font-weight: bold;
+  text-shadow: 0 0 8px #00ff41;
 }
 
-/* Hovedoverskrifter */
-h1 {
-  color: #ff6600 !important;
+/* Overskrifter */
+h1, h2, h3, h4 {
+  color: #00ff41 !important;
+  text-shadow: 0 0 6px #00ff41;
 }
 
-/* Underoverskrifter */
-h2, h3 {
-  color: #ff9933 !important;
+/* Almindelig tekst */
+.main-content,
+.main-content p,
+.main-content li {
+  color: #d6ffd6 !important;
 }
 
 /* Links */
 a {
-  color: #4da6ff !important;
+  color: #39ff14 !important;
 }
 
 /* Aktiv menu */
 .nav-list .nav-list-item .nav-list-link.active {
-  color: #ff6600 !important;
+  color: #00ff41 !important;
+  background-color: #061406 !important;
   font-weight: bold;
+  text-shadow: 0 0 5px #00ff41;
 }
 
-/* Hover på menu */
-.nav-list-link:hover {
-  color: #ff9933 !important;
+/* Hover */
+.nav-list-link:hover,
+a:hover {
+  color: #b6ffb6 !important;
+  text-shadow: 0 0 8px #00ff41;
+}
+
+/* Søgefelt */
+.search-input {
+  background-color: #020402 !important;
+  color: #00ff41 !important;
+  border-color: #00ff41 !important;
+}
+
+/* Kodeblokke */
+pre, code {
+  background-color: #020402 !important;
+  color: #00ff41 !important;
+  border: 1px solid #00ff41 !important;
 }
