@@ -87,3 +87,12 @@ code {
   background: #00ff41;
   color: #000000;
 }
+
+/* Matrix GIF baggrund */
+
+.main-content-wrap {
+  background-image: url('/assets/images/matrix_rain_smoother.gif');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
