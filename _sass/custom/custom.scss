@@ -117,6 +117,14 @@ code {
 
 /* Matrix GIF i sidebar */
 
+/* Matrix GIF i sidebar */
+
 .side-bar {
-  background: red !important;
+  background-image: url('/assets/images/matrix_rain_smoother.gif') !important;
+  background-size: cover !important;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+
+  border-right: 1px solid #00ff41 !important;
+  overflow-x: hidden !important;
 }
