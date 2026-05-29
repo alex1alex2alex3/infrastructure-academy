@@ -1,5 +1,5 @@
 ---
 layout: page
 title: VLAN
-parent: Netværk
+parent: netværk
 ---
