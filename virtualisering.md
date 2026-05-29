@@ -1,5 +1,5 @@
 ---
 layout: page
-title: Virtuellering
+title: Virtualisering
 has_children: true
 ---
