@@ -4,9 +4,11 @@ title: Home
 nav_order: 1
 ---
 
-# Infrastructure Academy
+# Alis Netværksakademi
 
-Velkommen til min IT-infrastruktur knowledge base.
+Velkommen til min IT-infrastruktur vidensbase.
+
+Her finder du guides, labs og dokumentation 
 
 ## Kategorier
 
