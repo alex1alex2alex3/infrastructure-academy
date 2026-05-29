@@ -12,7 +12,7 @@ Dokumentation, labs og guides inden for netværk, sikkerhed, Linux, Windows Serv
 
 ---
 
-# 🚀KATEGORIER
+## 🚀KATEGORIER
 
 &nbsp;
 
@@ -72,7 +72,7 @@ Cases, dokumentation og komplette IT-infrastrukturprojekter.
 
 ---
 
-## 📌 Populære emner
+### 📌 Populære emner
 
 - 🌐 VLAN-konfiguration
 - 🌐 OSPF Routing
