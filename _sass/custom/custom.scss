@@ -1,42 +1,99 @@
-/* Dragon omkring søgefelt */
+/* Matrix Theme - Netværks Akademiet */
+
+/* =======================================================
+   BASE
+   ======================================================= */
+
+body {
+  background-color: #0b0f0b !important;
+  color: #d6ffd6 !important;
+  overflow-x: hidden;
+}
+
+/* =======================================================
+   SIDEBAR
+   ======================================================= */
+
+.side-bar {
+  background-image:
+    linear-gradient(
+      rgba(0,0,0,0.75),
+      rgba(0,0,0,0.75)
+    ),
+    url('/assets/images/matrix_rain_smoother.gif') !important;
+
+  background-size: cover !important;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+
+  border-right: 1px solid #00ff41 !important;
+  overflow-x: hidden !important;
+
+  box-shadow: 2px 0 12px rgba(0,191,255,0.25);
+}
+
+/* =======================================================
+   TOPBAR / HEADER
+   ======================================================= */
 
 .site-header {
-  min-height: 220px !important;
+  min-height: 150px !important;
   background-color: #020402 !important;
+  border-bottom: 1px solid #003b12 !important;
   overflow: visible !important;
 }
+
+.main-header {
+  background-color: #020402 !important;
+}
+
+/* =======================================================
+   LOGO
+   ======================================================= */
+
+.site-title {
+  color: #00ff41 !important;
+
+  text-shadow:
+    0 0 5px #00ff41,
+    0 0 10px #00ff41,
+    0 0 15px #00bfff;
+}
+
+/* =======================================================
+   SEARCH + DRAGON
+   ======================================================= */
 
 .search {
   position: relative !important;
 
-  max-width: 850px !important;
-  width: 850px !important;
-  height: 58px !important;
+  width: 760px !important;
+  max-width: 760px !important;
+  height: 54px !important;
 
-  /* Flyttet mod venstre */
-  margin: 95px 0 0 120px !important;
+  margin: 55px 0 0 180px !important;
 
   background-color: rgba(0, 0, 0, 0.78) !important;
-  border: 1px solid rgba(0, 191, 255, 0.75) !important;
+
+  border: 1px solid rgba(0,191,255,0.75) !important;
   border-radius: 999px !important;
 
   box-shadow:
     0 0 18px rgba(0,191,255,0.75),
     inset 0 0 14px rgba(0,191,255,0.35);
 
-  z-index: 2 !important;
+  z-index: 5 !important;
 }
 
 .search::before {
   content: "";
   position: absolute;
 
-  /* Dragen flyttes tilsvarende mod venstre */
-  left: -320px;
-  top: -115px;
+  left: -210px;
+  top: -95px;
 
-  width: 1250px;
-  height: 260px;
+  width: 1000px;
+  height: 210px;
 
   background-image: url('/assets/images/dragon.png');
   background-size: contain;
@@ -44,14 +101,19 @@
   background-position: center;
 
   pointer-events: none;
+
   z-index: 1;
+}
+
+.search-input,
+.search-input-wrap {
+  background: transparent !important;
 }
 
 .search-input {
   position: relative !important;
-  z-index: 3 !important;
+  z-index: 10 !important;
 
-  background: transparent !important;
   color: #d6ffd6 !important;
 
   border: none !important;
@@ -61,4 +123,117 @@
 .search-input:focus {
   outline: none !important;
   box-shadow: none !important;
+}
+
+/* =======================================================
+   MAIN CONTENT
+   ======================================================= */
+
+.main,
+.main-content-wrap,
+.main-content,
+.page,
+.page-content {
+  background-color: #0b0f0b !important;
+}
+
+.main {
+  width: 100% !important;
+  max-width: none !important;
+}
+
+.main-content {
+  width: 100% !important;
+  max-width: none !important;
+}
+
+/* =======================================================
+   HEADINGS
+   ======================================================= */
+
+h1,
+h2,
+h3,
+h4 {
+  color: #00ff41 !important;
+  text-shadow: 0 0 1px rgba(0,255,65,0.15);
+}
+
+h2 {
+  letter-spacing: 1px;
+  font-weight: 700;
+}
+
+/* =======================================================
+   TEXT
+   ======================================================= */
+
+.main-content,
+.main-content p,
+.main-content li {
+  color: #d6ffd6 !important;
+}
+
+/* =======================================================
+   LINKS
+   ======================================================= */
+
+a {
+  color: #39ff14 !important;
+}
+
+a:hover {
+  color: #b6ffb6 !important;
+  text-shadow: 0 0 4px rgba(0,255,65,0.4);
+}
+
+/* =======================================================
+   NAVIGATION
+   ======================================================= */
+
+.nav-list .nav-list-item .nav-list-link {
+  color: #39ff14 !important;
+  transition: all 0.3s ease;
+}
+
+.nav-list .nav-list-item .nav-list-link:hover {
+  color: #ffffff !important;
+  background-color: rgba(0,255,65,0.15) !important;
+
+  box-shadow:
+    inset 0 0 10px rgba(0,255,65,0.5),
+    0 0 10px rgba(0,255,65,0.3);
+
+  border-radius: 6px;
+}
+
+.nav-list .nav-list-item .nav-list-link.active {
+  color: #00ff41 !important;
+  background-color: #061406 !important;
+  font-weight: bold;
+
+  box-shadow:
+    inset 0 0 10px rgba(0,255,65,0.3);
+
+  border-radius: 6px;
+}
+
+/* =======================================================
+   CODE BLOCKS
+   ======================================================= */
+
+pre,
+code {
+  background-color: #000000 !important;
+  color: #00ff41 !important;
+  border: 1px solid #003b12 !important;
+}
+
+/* =======================================================
+   SELECTION
+   ======================================================= */
+
+::selection {
+  background: #00ff41;
+  color: #000000;
 }
