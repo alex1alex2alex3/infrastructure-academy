@@ -61,11 +61,11 @@ body {
 }
 
 /* =======================================================
-   Søgefelt og drage - centreret top layout
+   Søgefelt og drage
    ======================================================= */
 
 .site-header {
-  min-height: 360px !important;
+  min-height: 430px !important;
   background-color: #050805 !important;
   overflow: visible !important;
   position: relative !important;
@@ -74,13 +74,13 @@ body {
 .search {
   position: absolute !important;
 
-  top: 100px !important;
+  top: 210px !important;
   left: 50% !important;
   transform: translateX(-50%) !important;
 
-  width: 760px !important;
-  max-width: 760px !important;
-  height: 68px !important;
+  width: 1000px !important;
+  max-width: 1000px !important;
+  height: 72px !important;
 
   margin: 0 !important;
 
@@ -102,10 +102,10 @@ body {
   position: absolute;
 
   left: 50%;
-  top: -250px;
+  top: -260px;
   transform: translateX(-50%);
 
-  width: 1700px;
+  width: 1900px;
   height: 430px;
 
   background-image: url('/assets/images/dragon.png');
@@ -157,8 +157,7 @@ body {
 .main-content {
   width: 100% !important;
   max-width: none !important;
-   
-  padding-top: 10px !important;
+  padding-top: 120px !important;
 }
 
 /* =======================================================
@@ -251,16 +250,17 @@ code {
   background: #00ff41;
   color: #000000;
 }
+
 /* Mindre sidebar på PC */
 
 @media (min-width: 50rem) {
 
   .side-bar {
-    width: 220px !important;
+    width: 280px !important;
   }
 
   .main {
-    margin-left: 220px !important;
+    margin-left: 280px !important;
   }
 
 }
