@@ -308,9 +308,11 @@ code {
   flex-shrink: 0;
 }
 
-.portal-content h3 {
-  margin: 0 0 4px 0 !important;
+.portal-title {
+  margin: 0 0 6px 0 !important;
   color: #39ff14 !important;
+  font-size: 22px;
+  font-weight: 700;
 }
 
 .portal-content p {
