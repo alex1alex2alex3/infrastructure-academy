@@ -4,14 +4,6 @@ title: Forside
 nav_order: 1
 ---
 
-<div style="position: relative; text-align: center; margin-bottom: -80px; z-index: 10;">
-
-  <img src="/assets/images/dragon.png"
-       alt="Drage"
-       style="max-width: 1000px; width: 100%;">
-
-</div>
-
 
 # 🌐 Velkommen til Alis Netværks Akademi
 
