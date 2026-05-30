@@ -18,7 +18,7 @@ Find dokumentation, labs og guides inden for it infrastruktur
   <div class="portal-left">
     <div class="portal-icon">🌐</div>
     <div class="portal-content">
-      <h3>Netværk</h3>
+      <div class="portal-title">Netværk</div>
       <p>VLAN, OSPF, routing, switching og netværksdesign.</p>
     </div>
   </div>
@@ -29,7 +29,7 @@ Find dokumentation, labs og guides inden for it infrastruktur
   <div class="portal-left">
     <div class="portal-icon">🔥</div>
     <div class="portal-content">
-      <h3>Firewall</h3>
+      <div class="portal-title">Firewall</div>
       <p>pfSense, NAT, port forwarding, VPN og sikker trafikstyring.</p>
     </div>
   </div>
@@ -40,7 +40,7 @@ Find dokumentation, labs og guides inden for it infrastruktur
   <div class="portal-left">
     <div class="portal-icon">🪟</div>
     <div class="portal-content">
-      <h3>Windows Server</h3>
+      <div class="portal-title">Windows server</div>
       <p>Active Directory, DNS, DHCP, filserver og domæneadministration.</p>
     </div>
   </div>
@@ -51,7 +51,7 @@ Find dokumentation, labs og guides inden for it infrastruktur
   <div class="portal-left">
     <div class="portal-icon">🐧</div>
     <div class="portal-content">
-      <h3>Linux</h3>
+      <div class="portal-title">Linux</div>
       <p>Linux-servere, SSH, terminal, services og administration.</p>
     </div>
   </div>
@@ -62,7 +62,7 @@ Find dokumentation, labs og guides inden for it infrastruktur
   <div class="portal-left">
     <div class="portal-icon">📦</div>
     <div class="portal-content">
-      <h3>Virtualisering</h3>
+      <div class="portal-title">Virtualisering</div>
       <p>Hyper-V, virtuelle maskiner, virtuelle netværk og labmiljøer.</p>
     </div>
   </div>
@@ -73,7 +73,7 @@ Find dokumentation, labs og guides inden for it infrastruktur
   <div class="portal-left">
     <div class="portal-icon">☁️</div>
     <div class="portal-content">
-      <h3>Cloud</h3>
+      <div class="portal-title">Cloud</div>
       <p>Azure, Microsoft 365, cloud-services og moderne IT-infrastruktur.</p>
     </div>
   </div>
@@ -84,7 +84,7 @@ Find dokumentation, labs og guides inden for it infrastruktur
   <div class="portal-left">
     <div class="portal-icon">🔒</div>
     <div class="portal-content">
-      <h3>Sikkerhed</h3>
+      <div class="portal-title">Sikkerhed</div>
       <p>Hardening, adgangskontrol, logging, overvågning og best practices.</p>
     </div>
   </div>
@@ -95,7 +95,7 @@ Find dokumentation, labs og guides inden for it infrastruktur
   <div class="portal-left">
     <div class="portal-icon">📁</div>
     <div class="portal-content">
-      <h3>Projekter</h3>
+      <div class="portal-title">Projekter</div>
       <p>Cases, dokumentation og komplette IT-infrastrukturprojekter.</p>
     </div>
   </div>
