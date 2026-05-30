@@ -1,7 +1,7 @@
-/* Matrix Theme - Netværks Akademiet */
+/* Matrix Tema - Netværks Akademiet */
 
 /* =======================================================
-   BASE
+   Grundlæggende side
    ======================================================= */
 
 body {
@@ -11,7 +11,7 @@ body {
 }
 
 /* =======================================================
-   SIDEBAR
+   Venstre menu
    ======================================================= */
 
 .side-bar {
@@ -33,22 +33,22 @@ body {
 }
 
 /* =======================================================
-   TOPBAR / HEADER
+   Topområde / header
    ======================================================= */
 
 .site-header {
-  min-height: 340px !important;
-  background-color: #020402 !important;
+  min-height: 420px !important;
+  background-color: #050805 !important;
   border-bottom: 1px solid #003b12 !important;
   overflow: visible !important;
 }
 
 .main-header {
-  background-color: #020402 !important;
+  background-color: #050805 !important;
 }
 
 /* =======================================================
-   LOGO
+   Logo / sidetitel
    ======================================================= */
 
 .site-title {
@@ -61,7 +61,7 @@ body {
 }
 
 /* =======================================================
-   SEARCH + DRAGON
+   Søgefelt og drage
    ======================================================= */
 
 .search {
@@ -71,7 +71,7 @@ body {
   max-width: 760px !important;
   height: 54px !important;
 
-  margin: 55px 0 0 180px !important;
+  margin: 120px 0 0 180px !important;
 
   background-color: rgba(0, 0, 0, 0.78) !important;
 
@@ -89,11 +89,11 @@ body {
   content: "";
   position: absolute;
 
-  left: -210px;
-  top: -95px;
+  left: -300px;
+  top: -170px;
 
-  width: 1000px;
-  height: 210px;
+  width: 1400px;
+  height: 320px;
 
   background-image: url('/assets/images/dragon.png');
   background-size: contain;
@@ -126,7 +126,7 @@ body {
 }
 
 /* =======================================================
-   MAIN CONTENT
+   Højre indholdsområde
    ======================================================= */
 
 .main,
@@ -146,12 +146,12 @@ body {
   width: 100% !important;
   max-width: none !important;
 
-  /* Giver plads til den store drage */
-  padding-top: 120px !important;
+  /* Giver luft mellem dragen og teksten */
+  padding-top: 160px !important;
 }
 
 /* =======================================================
-   HEADINGS
+   Overskrifter
    ======================================================= */
 
 h1,
@@ -168,7 +168,7 @@ h2 {
 }
 
 /* =======================================================
-   TEXT
+   Tekst
    ======================================================= */
 
 .main-content,
@@ -177,14 +177,8 @@ h2 {
   color: #d6ffd6 !important;
 }
 
-/* Mere plads til drage-banner */
-
-.main-content {
-  padding-top: 160px !important;
-}
-
 /* =======================================================
-   LINKS
+   Links
    ======================================================= */
 
 a {
@@ -197,7 +191,7 @@ a:hover {
 }
 
 /* =======================================================
-   NAVIGATION
+   Navigation
    ======================================================= */
 
 .nav-list .nav-list-item .nav-list-link {
@@ -228,7 +222,7 @@ a:hover {
 }
 
 /* =======================================================
-   CODE BLOCKS
+   Kodeblokke
    ======================================================= */
 
 pre,
@@ -239,7 +233,7 @@ code {
 }
 
 /* =======================================================
-   SELECTION
+   Markeret tekst
    ======================================================= */
 
 ::selection {
