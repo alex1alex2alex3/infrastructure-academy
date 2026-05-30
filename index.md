@@ -12,10 +12,6 @@ nav_order: 1
 
 </div>
 
-# 🌐 Velkommen til Alis Netværks Akademi
-
-Dokumentation, labs og guides inden for netværk, sikkerhed, Linux, Windows Server, virtualisering og cloud.
-
 
 # 🌐 Velkommen til Alis Netværks Akademi
 
