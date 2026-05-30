@@ -89,7 +89,7 @@ body {
     content: "";
     position: absolute;
 
-    left: -2500px;
+    left: -2800px;
     top: -190px;
 
     width: 6000px;
@@ -238,4 +238,17 @@ code {
 ::selection {
   background: #00ff41;
   color: #000000;
+}
+/* Mindre sidebar på PC */
+
+@media (min-width: 50rem) {
+
+  .side-bar {
+    width: 220px !important;
+  }
+
+  .main {
+    margin-left: 220px !important;
+  }
+
 }
