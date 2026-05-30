@@ -86,23 +86,19 @@ body {
 }
 
 .search::before {
-  content: "";
-  position: absolute;
+    left: -380px;
+    top: -190px;
 
-  left: -300px;
-  top: -170px;
+    width: 1750px;
+    height: 380px;
 
-  width: 1400px;
-  height: 320px;
+    background-image: url('/assets/images/dragon.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
 
-  background-image: url('/assets/images/dragon.png');
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
-
-  pointer-events: none;
-
-  z-index: 1;
+    pointer-events: none;
+    z-index: 1;
 }
 
 .search-input,
