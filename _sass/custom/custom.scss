@@ -69,9 +69,9 @@ body {
 
   width: 760px !important;
   max-width: 760px !important;
-  height: 90px !important;
+  height: 70px !important;
 
-  margin: 800px 250px 0 auto !important;
+  margin: 40px 80px 0 auto !important;
 
   background-color: rgba(0, 0, 0, 0.78) !important;
 
@@ -86,22 +86,40 @@ body {
 }
 
 .search::before {
-    content: "";
-    position: absolute;
+  content: "";
+  position: absolute;
 
-    left: -2700px;
-    top: -190px;
+  left: -900px;
+  top: -190px;
 
-    width: 6000px;
-    height: 380px;
+  width: 2200px;
+  height: 430px;
 
-    background-image: url('/assets/images/dragon.png');
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
+  background-image: url('/assets/images/dragon.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
 
-    pointer-events: none;
-    z-index: 1;
+  pointer-events: none;
+  z-index: 1;
+}
+
+.search-input,
+.search-input-wrap {
+  background: transparent !important;
+}
+
+.search-input {
+  position: relative !important;
+  z-index: 10 !important;
+  color: #d6ffd6 !important;
+  border: none !important;
+  box-shadow: none !important;
+}
+
+.search-input:focus {
+  outline: none !important;
+  box-shadow: none !important;
 }
 
 .search-input,
