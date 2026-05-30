@@ -12,10 +12,6 @@ Find dokumentation, labs og guides inden for it infrastruktur
 
 ---
 
-## 🚀KATEGORIER
-
-&nbsp;
-
 ## 🚀 KATEGORIER
 
 <div class="portal-card">
