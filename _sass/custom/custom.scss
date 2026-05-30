@@ -180,3 +180,27 @@ code {
 .main-header {
   background-color: #020402 !important;
 }
+
+/* DRAGE OVER SØGEFELT */
+
+.site-header {
+  position: relative;
+}
+
+.site-header::after {
+  content: "";
+  position: absolute;
+
+  top: 5px;
+  right: 20px;
+
+  width: 450px;
+  height: 160px;
+
+  background-image: url('/assets/images/dragon.png.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+
+  pointer-events: none;
+  z-index: 999;
+}
