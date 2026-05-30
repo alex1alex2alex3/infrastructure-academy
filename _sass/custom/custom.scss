@@ -184,30 +184,38 @@ code {
 /* Dragon omkring søgefelt */
 
 .site-header {
-  min-height: 120px !important;
+  min-height: 220px !important;
+  background-color: #020402 !important;
+  overflow: visible !important;
 }
 
 .search {
   position: relative !important;
-  max-width: 720px !important;
-  margin: 35px auto 0 auto !important;
+  max-width: 850px !important;
+  height: 58px !important;
 
-  background-color: rgba(0, 0, 0, 0.75) !important;
-  border: 1px solid rgba(0, 191, 255, 0.55) !important;
+  margin: 95px auto 0 auto !important;
+
+  background-color: rgba(0, 0, 0, 0.78) !important;
+  border: 1px solid rgba(0, 191, 255, 0.75) !important;
   border-radius: 999px !important;
 
   box-shadow:
-    0 0 14px rgba(0,191,255,0.6),
-    inset 0 0 10px rgba(0,191,255,0.25);
+    0 0 18px rgba(0,191,255,0.75),
+    inset 0 0 14px rgba(0,191,255,0.35);
+
+  z-index: 2 !important;
 }
 
 .search::before {
   content: "";
   position: absolute;
-  left: -180px;
-  top: -80px;
-  width: 1050px;
-  height: 220px;
+
+  left: -240px;
+  top: -115px;
+
+  width: 1250px;
+  height: 260px;
 
   background-image: url('/assets/images/dragon.png');
   background-size: contain;
@@ -223,4 +231,11 @@ code {
   z-index: 3 !important;
   background: transparent !important;
   color: #d6ffd6 !important;
+  border: none !important;
+  box-shadow: none !important;
+}
+
+.search-input:focus {
+  outline: none !important;
+  box-shadow: none !important;
 }
