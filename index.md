@@ -18,58 +18,42 @@ Dokumentation, labs og guides inden for netværk, sikkerhed, Linux, Windows Serv
 &nbsp;
 
 ### 🌐 Netværk
-VLAN, OSPF, routing, switching og netværksdesign.
-
-➡️ [Åbn Netværk](netværk)
+VLAN, OSPF, routing, switching og netværksdesign. ➡️ [Åbn Netværk](netværk)
 
 ---
 
 ### 🔥 Firewall
-pfSense, NAT, port forwarding, VPN og sikker trafikstyring.
-
-➡️ [Åbn Firewall](firewall)
+pfSense, NAT, port forwarding, VPN og sikker trafikstyring.  ➡️ [Åbn Firewall](firewall)
 
 ---
 
 ### 🪟 Windows Server
-Active Directory, DNS, DHCP, filserver og domæneadministration.
-
-➡️ [Åbn Windows Server](windows-server)
+Active Directory, DNS, DHCP, filserver og domæneadministration.  ➡️ [Åbn Windows Server](windows-server)
 
 ---
 
 ### 🐧 Linux
-Linux-servere, SSH, terminal, services og administration.
-
-➡️ [Åbn Linux](linux)
+Linux-servere, SSH, terminal, services og administration.  ➡️ [Åbn Linux](linux)
 
 ---
 
 ### 📦 Virtualisering
-Hyper-V, virtuelle maskiner, virtuelle netværk og labmiljøer.
-
-➡️ [Åbn Virtualisering](virtualisering)
+Hyper-V, virtuelle maskiner, virtuelle netværk og labmiljøer.  ➡️ [Åbn Virtualisering](virtualisering)
 
 ---
 
 ### ☁️ Cloud
-Azure, Microsoft 365, cloud-services og moderne IT-infrastruktur.
-
-➡️ [Åbn Cloud](cloud)
+Azure, Microsoft 365, cloud-services og moderne IT-infrastruktur.  ➡️ [Åbn Cloud](cloud)
 
 ---
 
 ### 🔒 Sikkerhed
-Hardening, adgangskontrol, logging, overvågning og best practices.
-
-➡️ [Åbn Sikkerhed](sikkerhed)
+Hardening, adgangskontrol, logging, overvågning og best practices.  ➡️ [Åbn Sikkerhed](sikkerhed)
 
 ---
 
 ### 📁 Projekter
-Cases, dokumentation og komplette IT-infrastrukturprojekter.
-
-➡️ [Åbn Projekter](projekter)
+Cases, dokumentation og komplette IT-infrastrukturprojekter.  ➡️ [Åbn Projekter](projekter)
 
 ---
 
