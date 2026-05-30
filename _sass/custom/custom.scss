@@ -181,26 +181,28 @@ code {
   background-color: #020402 !important;
 }
 
-/* DRAGE OVER SØGEFELT */
+/* Dragon search banner */
 
 .site-header {
-  position: relative;
+  min-height: 170px !important;
+  background-image: url('/assets/images/dragon.png') !important;
+  background-size: contain !important;
+  background-repeat: no-repeat !important;
+  background-position: center top !important;
 }
 
-.site-header::after {
-  content: "";
-  position: absolute;
+.search {
+  max-width: 720px !important;
+  margin: 75px auto 0 auto !important;
+  background-color: rgba(0, 0, 0, 0.70) !important;
+  border: 1px solid rgba(0, 191, 255, 0.55) !important;
+  border-radius: 999px !important;
+  box-shadow:
+    0 0 14px rgba(0,191,255,0.6),
+    inset 0 0 10px rgba(0,191,255,0.25);
+}
 
-  top: 5px;
-  right: 20px;
-
-  width: 450px;
-  height: 160px;
-
-  background-image: url('/assets/images/dragon.png.png');
-  background-size: contain;
-  background-repeat: no-repeat;
-
-  pointer-events: none;
-  z-index: 999;
+.search-input {
+  background: transparent !important;
+  color: #d6ffd6 !important;
 }
