@@ -4,11 +4,9 @@ title: Forside
 nav_order: 1
 ---
 
-
 # 🌐 Velkommen til Alis Netværk Akadami
 
 Dokumentation, labs og guides inden for netværk, sikkerhed, Linux, Windows Server, virtualisering og cloud.
-
 
 
 ---
