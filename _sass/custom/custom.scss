@@ -306,3 +306,11 @@ code {
   background: #00ff41;
   color: #000000;
 }
+/* Skjul de små link-ikoner ved overskrifter */
+
+.main-content h1 .anchor-heading,
+.main-content h2 .anchor-heading,
+.main-content h3 .anchor-heading,
+.main-content h4 .anchor-heading {
+  display: none !important;
+}
