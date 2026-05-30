@@ -37,7 +37,7 @@ body {
    ======================================================= */
 
 .site-header {
-  min-height: 150px !important;
+  min-height: 340px !important;
   background-color: #020402 !important;
   border-bottom: 1px solid #003b12 !important;
   overflow: visible !important;
@@ -134,7 +134,7 @@ body {
 .main-content,
 .page,
 .page-content {
-  background-color: #0b0f0b !important;
+  background-color: #050805 !important;
 }
 
 .main {
@@ -145,6 +145,9 @@ body {
 .main-content {
   width: 100% !important;
   max-width: none !important;
+
+  /* Giver plads til den store drage */
+  padding-top: 120px !important;
 }
 
 /* =======================================================
@@ -172,6 +175,12 @@ h2 {
 .main-content p,
 .main-content li {
   color: #d6ffd6 !important;
+}
+
+/* Mere plads til drage-banner */
+
+.main-content {
+  padding-top: 160px !important;
 }
 
 /* =======================================================
