@@ -16,43 +16,95 @@ Find dokumentation, labs og guides inden for it infrastruktur
 
 &nbsp;
 
-### 🌐 Netværk
-VLAN, OSPF, routing, switching og netværksdesign. ➡️ [Åbn Netværk](netværk)
+## 🚀 KATEGORIER
 
+<div class="portal-card">
+  <div class="portal-left">
+    <div class="portal-icon">🌐</div>
+    <div class="portal-content">
+      <h3>Netværk</h3>
+      <p>VLAN, OSPF, routing, switching og netværksdesign.</p>
+    </div>
+  </div>
+  <a href="netværk" class="portal-btn">➡️ Åbn Netværk</a>
+</div>
 
+<div class="portal-card">
+  <div class="portal-left">
+    <div class="portal-icon">🔥</div>
+    <div class="portal-content">
+      <h3>Firewall</h3>
+      <p>pfSense, NAT, port forwarding, VPN og sikker trafikstyring.</p>
+    </div>
+  </div>
+  <a href="firewall" class="portal-btn">➡️ Åbn Firewall</a>
+</div>
 
-### 🔥 Firewall
-pfSense, NAT, port forwarding, VPN og sikker trafikstyring.  ➡️ [Åbn Firewall](firewall)
+<div class="portal-card">
+  <div class="portal-left">
+    <div class="portal-icon">🪟</div>
+    <div class="portal-content">
+      <h3>Windows Server</h3>
+      <p>Active Directory, DNS, DHCP, filserver og domæneadministration.</p>
+    </div>
+  </div>
+  <a href="windows-server" class="portal-btn">➡️ Åbn Windows Server</a>
+</div>
 
+<div class="portal-card">
+  <div class="portal-left">
+    <div class="portal-icon">🐧</div>
+    <div class="portal-content">
+      <h3>Linux</h3>
+      <p>Linux-servere, SSH, terminal, services og administration.</p>
+    </div>
+  </div>
+  <a href="linux" class="portal-btn">➡️ Åbn Linux</a>
+</div>
 
+<div class="portal-card">
+  <div class="portal-left">
+    <div class="portal-icon">📦</div>
+    <div class="portal-content">
+      <h3>Virtualisering</h3>
+      <p>Hyper-V, virtuelle maskiner, virtuelle netværk og labmiljøer.</p>
+    </div>
+  </div>
+  <a href="virtualisering" class="portal-btn">➡️ Åbn Virtualisering</a>
+</div>
 
-### 🪟 Windows Server
-Active Directory, DNS, DHCP, filserver og domæneadministration.  ➡️ [Åbn Windows Server](windows-server)
+<div class="portal-card">
+  <div class="portal-left">
+    <div class="portal-icon">☁️</div>
+    <div class="portal-content">
+      <h3>Cloud</h3>
+      <p>Azure, Microsoft 365, cloud-services og moderne IT-infrastruktur.</p>
+    </div>
+  </div>
+  <a href="cloud" class="portal-btn">➡️ Åbn Cloud</a>
+</div>
 
+<div class="portal-card">
+  <div class="portal-left">
+    <div class="portal-icon">🔒</div>
+    <div class="portal-content">
+      <h3>Sikkerhed</h3>
+      <p>Hardening, adgangskontrol, logging, overvågning og best practices.</p>
+    </div>
+  </div>
+  <a href="sikkerhed" class="portal-btn">➡️ Åbn Sikkerhed</a>
+</div>
 
-
-### 🐧 Linux
-Linux-servere, SSH, terminal, services og administration.  ➡️ [Åbn Linux](linux)
-
-
-
-### 📦 Virtualisering
-Hyper-V, virtuelle maskiner, virtuelle netværk og labmiljøer.  ➡️ [Åbn Virtualisering](virtualisering)
-
-
-
-### ☁️ Cloud
-Azure, Microsoft 365, cloud-services og moderne IT-infrastruktur.  ➡️ [Åbn Cloud](cloud)
-
-
-
-### 🔒 Sikkerhed
-Hardening, adgangskontrol, logging, overvågning og best practices.  ➡️ [Åbn Sikkerhed](sikkerhed)
-
-
-
-### 📁 Projekter
-Cases, dokumentation og komplette IT-infrastrukturprojekter.  ➡️ [Åbn Projekter](projekter)
+<div class="portal-card">
+  <div class="portal-left">
+    <div class="portal-icon">📁</div>
+    <div class="portal-content">
+      <h3>Projekter</h3>
+      <p>Cases, dokumentation og komplette IT-infrastrukturprojekter.</p>
+    </div>
+  </div>
+  <a href="projekter" class="portal-btn">➡️ Åbn Projekter</a>
+</div>
 
 ---
 
