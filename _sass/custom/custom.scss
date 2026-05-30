@@ -346,3 +346,35 @@ code {
   box-shadow:
     0 0 8px rgba(0,191,255,0.18);
 }
+.portal-btn {
+  display: inline-flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+
+  min-width: 180px !important;
+  height: 48px !important;
+
+  margin-left: auto !important;
+  flex-shrink: 0 !important;
+
+  border-radius: 12px !important;
+
+  background: rgba(0,191,255,0.05) !important;
+  border: 1px solid rgba(0,191,255,0.25) !important;
+
+  color: #39ff14 !important;
+  text-decoration: none !important;
+  font-weight: 600 !important;
+
+  z-index: 50 !important;
+}
+
+.portal-card {
+  display: flex !important;
+  justify-content: space-between !important;
+  align-items: center !important;
+}
+
+.portal-left {
+  flex: 1 !important;
+}
