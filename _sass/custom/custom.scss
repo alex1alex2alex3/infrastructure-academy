@@ -181,28 +181,41 @@ code {
   background-color: #020402 !important;
 }
 
-/* Dragon search banner */
+/* Dragon omkring søgefelt */
 
 .site-header {
-  min-height: 170px !important;
-  background-image: url('/assets/images/dragon.png') !important;
-  background-size: contain !important;
-  background-repeat: no-repeat !important;
-  background-position: center top !important;
+  min-height: 90px !important;
 }
 
 .search {
+  position: relative !important;
   max-width: 720px !important;
-  margin: 75px auto 0 auto !important;
+  margin: 18px auto 0 auto !important;
+
   background-color: rgba(0, 0, 0, 0.70) !important;
   border: 1px solid rgba(0, 191, 255, 0.55) !important;
   border-radius: 999px !important;
+
   box-shadow:
     0 0 14px rgba(0,191,255,0.6),
     inset 0 0 10px rgba(0,191,255,0.25);
 }
 
+.search::before {
+  content: "";
+  position: absolute;
+  inset: -55px -160px -55px -160px;
+  background-image: url('/assets/images/dragon.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  pointer-events: none;
+  z-index: 0;
+}
+
 .search-input {
+  position: relative !important;
+  z-index: 2 !important;
   background: transparent !important;
   color: #d6ffd6 !important;
 }
