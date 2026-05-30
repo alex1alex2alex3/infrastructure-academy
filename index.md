@@ -4,6 +4,8 @@ title: Forside
 nav_order: 1
 ---
 
+<img src="/assets/images/dragon.png.png" alt="Netværks Akademiet Drage" style="width:100%; border-radius:12px; margin-bottom:20px;">
+
 # 🌐 Velkommen til Alis Netværks Akademi
 
 Dokumentation, labs og guides inden for netværk, sikkerhed, Linux, Windows Server, virtualisering og cloud.
