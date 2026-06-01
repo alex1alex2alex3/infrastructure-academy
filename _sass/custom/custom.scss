@@ -284,6 +284,13 @@ h2 {
 .main-content h3 + p {
   padding-left: 18px !important;
 }
+/* =======================================================
+   Introtekst under velkomst
+   ======================================================= */
+
+.main-content h1:first-of-type + p {
+  padding-left: 55px !important;
+}
 
 /* =======================================================
    Tekst
