@@ -88,6 +88,17 @@ body {
 .main-header {
   background: transparent !important;
 }
+
+/* =======================================================
+   Neon-linje under logo
+   ======================================================= */
+
+.side-bar .site-header {
+  border-bottom: 1px solid #00bfff !important;
+
+  box-shadow:
+    0 0 8px rgba(0,191,255,0.7);
+}
 /* =======================================================
    Søgefelt og drage
    ======================================================= */
