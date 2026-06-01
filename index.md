@@ -12,22 +12,22 @@ Find dokumentation, labs og guides inden for it infrastruktur
 
 ## 🚀 KATEGORIER
 
-### 📡 Networking
+### <span class="big-emoji">🖧</span> Networking
 Routing, Switching, VLAN, OSPF, BGP
 
-### 🔥 Firewall
+### <span class="big-emoji">🔥</span> Firewall
 ACL, NAT, Port Forwarding, DMZ
 
-### 🖥️ Windows Server
+### <span class="big-emoji">🖥️</span> Windows Server
 AD, DNS, DHCP, DFS
 
-### 🐧 Linux
+### <span class="big-emoji">🐧</span> Linux
 SSH, Docker, Firewall
 
-### ☁️ Cloud
+### <span class="big-emoji">☁️</span> Cloud
 Azure, Entra ID, M365
 
-### 🧪 Labs
+### <span class="big-emoji">🧪</span> Labs
 GNS3, pfSense, Hyper-V
 
 ---
