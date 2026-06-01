@@ -90,14 +90,34 @@ body {
 }
 
 /* =======================================================
-   Neon-linje under logo
+   Diskret linje under logo
    ======================================================= */
 
 .side-bar .site-header {
-  border-bottom: 1px solid #00bfff !important;
+  border-bottom: none !important;
+  box-shadow: none !important;
+  position: relative !important;
+}
+
+.side-bar .site-header::after {
+  content: "";
+  position: absolute;
+
+  left: 20%;
+  right: 20%;
+  bottom: 0;
+
+  height: 1px;
+
+  background: linear-gradient(
+    to right,
+    transparent,
+    #00ff41,
+    transparent
+  );
 
   box-shadow:
-    0 0 8px rgba(0,191,255,0.7);
+    0 0 6px rgba(0,255,65,0.45);
 }
 /* =======================================================
    Søgefelt og drage
