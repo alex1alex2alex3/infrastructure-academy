@@ -1,64 +1,165 @@
 /* =======================================================
-   Mobilvenlig version
-   Gælder kun telefoner og mindre tablets
+   Mobilversion - Netværks Akademiet
    ======================================================= */
 
-/* Aktiver disse regler når skærmen er 768px eller mindre */
-@media (max-width: 768px) {
+@media (max-width: 768px) { /* Gælder for mobil og små tablets */
 
-  /* =====================================================
-     Venstre menu (sidebar)
-     ===================================================== */
-
-  .side-bar {
-
-    /* Sidebar fylder hele skærmbredden på mobil */
-    width: 100% !important;
+  body { /* Hele siden */
+    overflow-x: hidden !important; /* Fjerner vandret scroll */
   }
 
-  /* =====================================================
-     Hovedindhold
-     ===================================================== */
-
-  .main {
-
-    /* Fjern plads reserveret til desktop-sidebar */
-    margin-left: 0 !important;
-
-    /* Hovedindhold bruger hele skærmbredden */
-    width: 100% !important;
+  .side-bar { /* Venstre menu/topmenu på mobil */
+    width: 100% !important; /* Fylder hele bredden */
+    min-height: auto !important; /* Højden tilpasser sig indholdet */
+    background-size: cover !important; /* Matrix-baggrund fylder området */
+    background-position: center top !important; /* Baggrund starter øverst */
+    border-right: none !important; /* Fjerner højre kant på mobil */
+    box-shadow: none !important; /* Fjerner skygge på mobil */
   }
 
-  /* =====================================================
-     Header med drage og søgefelt
-     ===================================================== */
-
-  .site-header {
-
-    /* Mindre højde på mobil for at spare plads */
-    min-height: 300px !important;
+  .main { /* Hovedindhold */
+    width: 100% !important; /* Fylder hele bredden */
+    max-width: none !important; /* Ingen maksimal bredde */
+    margin-left: 0 !important; /* Fjerner desktop-sidebar afstand */
   }
 
-  /* =====================================================
-     Søgefelt
-     ===================================================== */
-
-  .search {
-
-    /* Søgefelt fylder 88% af skærmbredden */
-    width: 88vw !important;
-
-    /* Maksimal bredde er også 88% af skærmen */
-    max-width: 88vw !important;
+  .site-title { /* Netværks Akademiet tekst */
+    font-size: 42px !important; /* Gør logo-teksten stor på mobil */
+    line-height: 1.15 !important; /* Gør linjeafstand tættere */
+    margin-top: 0 !important; /* Fjerner desktop-flytning opad */
   }
 
-  /* =====================================================
-     Store emojis på forsiden
-     ===================================================== */
+  .side-bar .site-header { /* Logoområdet i venstre/top-menu */
+    min-height: 280px !important; /* Giver plads til logo */
+    background: transparent !important; /* Viser Matrix-baggrund */
+    border-bottom: none !important; /* Fjerner streg */
+  }
 
-  .big-emoji {
+  .side-bar .site-header::after { /* Grøn dekorationslinje under logo */
+    left: 12% !important; /* Start lidt inde fra venstre */
+    right: 35% !important; /* Slut før højre side */
+    bottom: 95px !important; /* Placering op/ned */
+  }
 
-    /* Mindre emoji-størrelse på mobil */
-    font-size: 28px !important;
+  .site-nav { /* Menu-links */
+    margin-top: 0 !important; /* Fjerner desktop-oprykning */
+  }
+
+  .site-header { /* Header med søgefelt/drage */
+    min-height: 260px !important; /* Mindre højde på mobil */
+    background: transparent !important; /* Gennemsigtig baggrund */
+    overflow: visible !important; /* Tillader dragen udenfor boksen */
+    position: relative !important; /* Gør absolute placering mulig */
+  }
+
+  .main-header { /* Øverste header i hovedområdet */
+    background: transparent !important; /* Gennemsigtig */
+    border-bottom: none !important; /* Fjerner linje */
+  }
+
+  .search { /* Søgefelt */
+    position: absolute !important; /* Fri placering */
+    top: 155px !important; /* Flytter søgefelt ned */
+    left: 50% !important; /* Starter centrering */
+    transform: translateX(-50%) !important; /* Centrerer præcist */
+    width: 86vw !important; /* 86% af skærmbredden */
+    max-width: 86vw !important; /* Maks samme bredde */
+    height: 52px !important; /* Højde på søgefelt */
+    margin: 0 !important; /* Fjerner margin */
+    border-radius: 999px !important; /* Rundt søgefelt */
+    background: rgba(0,0,0,0.82) !important; /* Mørk gennemsigtig baggrund */
+    border: 1px solid rgba(0,191,255,0.75) !important; /* Blå kant */
+    box-shadow: 0 0 14px rgba(0,191,255,0.55), inset 0 0 10px rgba(0,191,255,0.25); /* Blå glow */
+    overflow: visible !important; /* Dragen kan vises udenfor */
+    z-index: 5 !important; /* Lægger søgefelt over baggrund */
+  }
+
+  .search::before { /* Dragen */
+    content: ""; /* Gør pseudo-element synligt */
+    position: absolute; /* Fri placering i forhold til søgefelt */
+    left: 50% !important; /* Centrerer dragen */
+    top: -145px !important; /* Flytter dragen op */
+    transform: translateX(-50%) !important; /* Præcis centrering */
+    width: 720px !important; /* Dragens bredde på mobil */
+    height: 230px !important; /* Dragens højde på mobil */
+    background-image: url('/assets/images/dragon.png'); /* Dragebillede */
+    background-size: contain !important; /* Hele dragen vises */
+    background-repeat: no-repeat !important; /* Gentag ikke billedet */
+    background-position: center !important; /* Centrer billedet */
+    pointer-events: none !important; /* Dragen blokerer ikke klik */
+    z-index: 1 !important; /* Ligger bag input */
+  }
+
+  .search-input,
+  .search-input-wrap { /* Input og wrapper */
+    height: 100% !important; /* Fylder søgefeltets højde */
+    background: transparent !important; /* Gennemsigtig */
+    border: none !important; /* Ingen kant */
+  }
+
+  .search-input { /* Teksten i søgefelt */
+    position: relative !important; /* Gør z-index aktiv */
+    z-index: 10 !important; /* Ligger over dragen */
+    color: #d6ffd6 !important; /* Lys grøn tekst */
+    padding-left: 35px !important; /* Luft i venstre side */
+    font-size: 15px !important; /* Tekststørrelse */
+    box-shadow: none !important; /* Ingen ekstra skygge */
+  }
+
+  .search-input:focus { /* Når søgefeltet er aktivt */
+    outline: none !important; /* Fjerner browser outline */
+    box-shadow: none !important; /* Fjerner fokus-skygge */
+  }
+
+  .main-content { /* Indholdsområde */
+    padding-top: 180px !important; /* Luft under drage/search */
+    padding-left: 22px !important; /* Luft venstre */
+    padding-right: 22px !important; /* Luft højre */
+  }
+
+  .main-content h1:first-of-type { /* Første overskrift */
+    font-size: 40px !important; /* Mindre end desktop */
+    line-height: 1.2 !important; /* Pæn linjeafstand */
+    margin-bottom: 14px !important; /* Luft under overskrift */
+  }
+
+  .main-content h1:first-of-type + p { /* Teksten under velkomst */
+    padding-left: 0 !important; /* Fjerner desktop-indrykning */
+    font-size: 20px !important; /* Større læsbar mobiltekst */
+    line-height: 1.5 !important; /* God læsbarhed */
+  }
+
+  .main-content h2 { /* KATEGORIER */
+    font-size: 30px !important; /* Mobilstørrelse */
+    line-height: 1.2 !important; /* Tættere linjeafstand */
+  }
+
+  .main-content h3 { /* Kategorikort */
+    font-size: 25px !important; /* Kategori tekst */
+    padding: 18px 22px !important; /* Luft inde i kortet */
+    margin-top: 22px !important; /* Luft over kort */
+    margin-bottom: 10px !important; /* Luft under kort */
+  }
+
+  .main-content h3 + p { /* Beskrivelse under kategori */
+    padding-left: 22px !important; /* Let indrykning */
+    font-size: 20px !important; /* Tekststørrelse */
+    line-height: 1.45 !important; /* Linjeafstand */
+  }
+
+  .main-content li { /* Listepunkter */
+    font-size: 20px !important; /* Liste tekststørrelse */
+    line-height: 1.5 !important; /* Linjeafstand */
+  }
+
+  blockquote { /* Citat nederst */
+    font-size: 20px !important; /* Citat tekststørrelse */
+    line-height: 1.5 !important; /* Linjeafstand */
+  }
+
+  .big-emoji { /* Store ikoner/emojis */
+    font-size: 42px !important; /* Emoji-størrelse */
+    vertical-align: middle !important; /* Justerer med tekst */
+    margin-right: 10px !important; /* Luft efter emoji */
   }
 }
