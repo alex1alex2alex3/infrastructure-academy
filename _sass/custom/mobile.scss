@@ -1,0 +1,64 @@
+/* =======================================================
+   Mobilvenlig version
+   Gælder kun telefoner og mindre tablets
+   ======================================================= */
+
+/* Aktiver disse regler når skærmen er 768px eller mindre */
+@media (max-width: 768px) {
+
+  /* =====================================================
+     Venstre menu (sidebar)
+     ===================================================== */
+
+  .side-bar {
+
+    /* Sidebar fylder hele skærmbredden på mobil */
+    width: 100% !important;
+  }
+
+  /* =====================================================
+     Hovedindhold
+     ===================================================== */
+
+  .main {
+
+    /* Fjern plads reserveret til desktop-sidebar */
+    margin-left: 0 !important;
+
+    /* Hovedindhold bruger hele skærmbredden */
+    width: 100% !important;
+  }
+
+  /* =====================================================
+     Header med drage og søgefelt
+     ===================================================== */
+
+  .site-header {
+
+    /* Mindre højde på mobil for at spare plads */
+    min-height: 300px !important;
+  }
+
+  /* =====================================================
+     Søgefelt
+     ===================================================== */
+
+  .search {
+
+    /* Søgefelt fylder 88% af skærmbredden */
+    width: 88vw !important;
+
+    /* Maksimal bredde er også 88% af skærmen */
+    max-width: 88vw !important;
+  }
+
+  /* =====================================================
+     Store emojis på forsiden
+     ===================================================== */
+
+  .big-emoji {
+
+    /* Mindre emoji-størrelse på mobil */
+    font-size: 28px !important;
+  }
+}
