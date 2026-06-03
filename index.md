@@ -9,10 +9,9 @@ nav_order: 1
             color:#00ff00;
             padding:15px;
             border-radius:8px;
-            margin-bottom:20px;
-            box-shadow:0 0 10px #00ff00;">
-            width:60%;">
-
+            margin:20px auto;
+            box-shadow:0 0 10px #00ff00;
+            max-width:600px;">
 
 🚧 <strong>Under opbygning</strong><br>
 Alis Netværk Akademi er stadig under udvikling.
