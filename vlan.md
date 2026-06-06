@@ -35,7 +35,7 @@ vlan 20
  name skrivnavnher
  exit
 ```
-## kontroller VLAN-konfigurationen:
+## Kontroller VLAN-konfigurationen
 ```cisco
 show vlan brief
 ```
