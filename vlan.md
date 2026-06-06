@@ -20,6 +20,7 @@ Nyt indhold, labs og dokumentation tilføjes løbende.
 
 </div>
 
+<div class="vlan-guide">
 
 # VLAN (Virtual Local Area Network)
 
@@ -60,3 +61,4 @@ show vlan brief
 ## Video-guide
 
 📽️ Video Kommer snart
+</div>
