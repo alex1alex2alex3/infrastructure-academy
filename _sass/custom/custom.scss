@@ -409,8 +409,8 @@ h2.text-delta::after {
    Styling af kodeblokketekst af emner
    ======================================================= */
 .vlan-page pre {
-  width: 70% !important;
-  max-width: 850px;
+  width: 1000% !important;
+  max-width: none;
   padding: 20px !important;
 
   background: #06111a !important;
