@@ -49,7 +49,7 @@ vlan 20
 
 ### Klar til at konfigurere?
 
-Kopiér kommandoerne og indsæt dem på switchen.
+Kopiér kommandoerne og indsæt dem på dit udstyr.
 
 </div>
 
