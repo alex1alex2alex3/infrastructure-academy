@@ -397,7 +397,9 @@ h2.text-delta {
 
 h2.text-delta::after {
   content: "Følgende kategorier";
-  font-size: inherit;
+  font-size: 18px !important;
+  color: #00ff41;
+  font-weight: bold;
 }
 
 /* =======================================================
