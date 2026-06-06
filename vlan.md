@@ -20,17 +20,20 @@ Nyt indhold, labs og dokumentation tilføjes løbende.
 
 </div>
 
-<div class="vlan-page" markdown="1">            
+<div class="vlan-page" markdown="1">
+
 # VLAN (Virtual Local Area Network)
 
 <div class="command-row" markdown="1">
 
 <div class="command-box" markdown="1">
-            
-## Opret Vlan 10 & vlan 20
+
+## Opret VLAN 10 & VLAN 20
+
 ```cisco
 enable
 configure terminal
+
 vlan 10
  name skrivnavnher
  exit
@@ -39,27 +42,7 @@ vlan 20
  name skrivnavnher
  exit
 ```
-## Kontroller VLAN-konfigurationen
-```cisco
-show vlan brief
-```
-## Giv vlan´et adgang til et interface
-Følgende konfiguration placerer FastEthernet0/1 i VLAN 10 og FastEthernet0/2 i VLAN 20.
-```cisco
-interface FastEthernet0/1
- switchport access vlan 10
- switchport mode access
- exit
 
-interface FastEthernet0/2
- switchport access vlan 20
- switchport mode access
- end
-```
-## Verificering
-```cisco
-show vlan brief
-```
 </div>
 
 <div class="info-box" markdown="1">
@@ -72,8 +55,36 @@ Kopiér kommandoerne og indsæt dem på switchen.
 
 </div>
 
+## Kontroller VLAN-konfigurationen
+
+```cisco
+show vlan brief
+```
+
+## Giv VLAN'et adgang til et interface
+
+Følgende konfiguration placerer FastEthernet0/1 i VLAN 10 og FastEthernet0/2 i VLAN 20.
+
+```cisco
+interface FastEthernet0/1
+ switchport access vlan 10
+ switchport mode access
+ exit
+
+interface FastEthernet0/2
+ switchport access vlan 20
+ switchport mode access
+ end
+```
+
+## Verificering
+
+```cisco
+show vlan brief
+```
+
 ## Video-guide
 
-📽️ Video Kommer snart
+📽️ Video kommer snart
 
 </div>
