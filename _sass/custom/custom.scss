@@ -445,9 +445,12 @@ h2.text-delta::after {
   border-radius: 14px;
       
   padding: 30px;
+   
   max-width: 1500px;      
-  width: 75%;         
-  margin: -1px;
+  width: 100%;         
+
+  margin-top: 20px;
+  margin-bottom: 20px;
 
   box-shadow:
     0 0 20px rgba(0,191,255,0.10),
