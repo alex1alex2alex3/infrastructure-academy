@@ -20,8 +20,7 @@ Nyt indhold, labs og dokumentation tilføjes løbende.
 
 </div>
 
-<div class="vlan-guide" markdown="1">
-            
+<div class="vlan-page" markdown="1">            
 # VLAN (Virtual Local Area Network)
 
 ## Opret Vlan 10 & vlan 20
