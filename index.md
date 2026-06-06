@@ -2,8 +2,6 @@
 layout: home
 title: Forside
 nav_order: 1
-classes: frontpage
-
 ---
 
 
