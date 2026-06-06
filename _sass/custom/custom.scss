@@ -406,6 +406,21 @@ h2.text-delta::after {
 }
 
 /* =======================================================
+   Styling af kodeblokketekst af emner
+   ======================================================= */
+.highlight pre,
+pre.highlight {
+  width: 100% !important;
+  padding: 20px !important;
+  border: 1px solid #00ff41 !important;
+  border-radius: 8px !important;
+  background: #000000 !important;
+
+  box-shadow:
+    inset 0 0 12px rgba(0,255,65,0.15);
+}
+
+/* =======================================================
    Mobilversion
    ======================================================= */
 
