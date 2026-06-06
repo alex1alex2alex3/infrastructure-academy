@@ -380,6 +380,18 @@ code {
 }
 
 /* =======================================================
+   Anchor-fix ved klik på Table of Contents
+   Forhindrer overskrifter i at gemme sig bag drage/søgefelt
+   ======================================================= */
+
+.main-content h1,
+.main-content h2,
+.main-content h3,
+.main-content h4 {
+  scroll-margin-top: 520px !important;
+}
+
+/* =======================================================
    Mobilversion
    ======================================================= */
 
