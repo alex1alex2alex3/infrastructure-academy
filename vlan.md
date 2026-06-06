@@ -19,3 +19,44 @@ Alis Netværk Akademi er stadig under udvikling.
 Nyt indhold, labs og dokumentation tilføjes løbende.
 
 </div>
+
+
+# VLAN (Virtual Local Area Network)
+
+## Opret Vlan 10 & vlan 20
+```cisco
+enable
+configure terminal
+vlan 10
+ name skrivnavnher
+ exit
+
+vlan 20
+ name skrivnavnher
+ exit
+```
+## kontroller VLAN-konfigurationen:
+```cisco
+show vlan brief
+```
+## Giv vlan´et adgang til et interface
+Følgende konfiguration placerer FastEthernet0/1 i VLAN 10 og FastEthernet0/2 i VLAN 20.
+```cisco
+interface FastEthernet0/1
+ switchport access vlan 10
+ switchport mode access
+ exit
+
+interface FastEthernet0/2
+ switchport access vlan 20
+ switchport mode access
+ end
+```
+## Verificering
+```cisco
+show vlan brief
+```
+
+## Video-guide
+
+📽️ Video Kommer snart
