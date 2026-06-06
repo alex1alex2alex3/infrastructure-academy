@@ -23,6 +23,10 @@ Nyt indhold, labs og dokumentation tilføjes løbende.
 <div class="vlan-page" markdown="1">            
 # VLAN (Virtual Local Area Network)
 
+<div class="command-row" markdown="1">
+
+<div class="command-box" markdown="1">
+            
 ## Opret Vlan 10 & vlan 20
 ```cisco
 enable
@@ -56,6 +60,17 @@ interface FastEthernet0/2
 ```cisco
 show vlan brief
 ```
+</div>
+
+<div class="info-box" markdown="1">
+
+### Klar til at konfigurere?
+
+Kopiér kommandoerne og indsæt dem på switchen.
+
+</div>
+
+</div>
 
 ## Video-guide
 
