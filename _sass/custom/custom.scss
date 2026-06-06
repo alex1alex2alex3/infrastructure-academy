@@ -221,6 +221,14 @@ body {
   /* Plads under drage og søgefelt */
   padding-top: 400px !important;
 }
+/* =======================================================
+   Breadcrumb på undersider
+   Flytter Firewall / Port Forwarding ned under dragen
+   ======================================================= */
+
+.breadcrumb-nav {
+  margin-top: 420px !important;
+}
 
 /* =======================================================
    Overskrifter
