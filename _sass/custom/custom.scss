@@ -388,15 +388,19 @@ code {
 }
 
 /* =======================================================
-   Anchor-fix ved klik på Table of Contents
+   Omdøb Table of Contents til Indhold
    ======================================================= */
 
-html {
-  scroll-padding-top: 520px !important;
+h2.text-delta {
+  font-size: 0 !important;
 }
 
-.main-content [id] {
-  scroll-margin-top: 520px !important;
+h2.text-delta::after {
+  content: "INDHOLD";
+  font-size: 18px;
+  color: #00ff41;
+  letter-spacing: 1px;
+  font-weight: bold;
 }
 
 /* =======================================================
