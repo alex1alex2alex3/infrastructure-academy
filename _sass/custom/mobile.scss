@@ -46,7 +46,7 @@
   }
 
   .site-header { /* Header med søgefelt/drage */
-    min-height: 260px !important; /* Mindre højde på mobil */
+    min-height: 150px !important; /* Mindre højde på mobil */
     background: transparent !important; /* Gennemsigtig baggrund */
     overflow: visible !important; /* Tillader dragen udenfor boksen */
     position: relative !important; /* Gør absolute placering mulig */
@@ -59,12 +59,12 @@
 
   .search { /* Søgefelt */
     position: absolute !important; /* Fri placering */
-    top: 155px !important; /* Flytter søgefelt ned */
+    top: 95px !important; /* Flytter søgefelt ned */
     left: 50% !important; /* Starter centrering */
     transform: translateX(-50%) !important; /* Centrerer præcist */
-    width: 86vw !important; /* 86% af skærmbredden */
-    max-width: 86vw !important; /* Maks samme bredde */
-    height: 52px !important; /* Højde på søgefelt */
+    width: 75vw !important; /* 86% af skærmbredden */
+    max-width: 75vw !important; /* Maks samme bredde */
+    height: 42px !important; /* Højde på søgefelt */
     margin: 0 !important; /* Fjerner margin */
     border-radius: 999px !important; /* Rundt søgefelt */
     background: rgba(0,0,0,0.82) !important; /* Mørk gennemsigtig baggrund */
@@ -78,10 +78,10 @@
     content: ""; /* Gør pseudo-element synligt */
     position: absolute; /* Fri placering i forhold til søgefelt */
     left: 50% !important; /* Centrerer dragen */
-    top: -145px !important; /* Flytter dragen op */
+    top: -70px !important; /* Flytter dragen op */
     transform: translateX(-50%) !important; /* Præcis centrering */
-    width: 720px !important; /* Dragens bredde på mobil */
-    height: 230px !important; /* Dragens højde på mobil */
+    width: 320px !important; /* Dragens bredde på mobil */
+    height: 110px !important; /* Dragens højde på mobil */
     background-image: url('/assets/images/dragon.png'); /* Dragebillede */
     background-size: contain !important; /* Hele dragen vises */
     background-repeat: no-repeat !important; /* Gentag ikke billedet */
