@@ -1,4 +1,4 @@
-/* Matrix Tema - Netværks Akademiet */
+   /* Matrix Tema - Netværks Akademiet */
 
 /* =======================================================
    Grundlæggende side
@@ -476,15 +476,17 @@ h2.text-delta::after {
   display: flex;
   gap: 25px;
   align-items: flex-start;
+  justify-content: space-between;
+
 }
 
 .command-box {
-  width: 850px;
+  width: 70%;
   flex: none;
 }
 
 .info-box {
-  width: 320px;
+  width: 20%;
   flex: none;
 
   background: rgba(0,0,0,0.35);
@@ -495,7 +497,7 @@ h2.text-delta::after {
 
   padding: 20px;
 
-  box-shadow:
+  box-shadow:   
     0 0 10px rgba(0,255,65,0.10);
 }
 /* =======================================================
