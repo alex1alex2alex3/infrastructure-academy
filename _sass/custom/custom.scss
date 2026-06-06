@@ -388,7 +388,7 @@ code {
 }
 
 /* =======================================================
-   Omdøb Table of Contents til Indhold
+   Omdøb Table of Contents 
    ======================================================= */
 
 h2.text-delta {
@@ -396,11 +396,8 @@ h2.text-delta {
 }
 
 h2.text-delta::after {
-  content: "INDHOLD";
-  font-size: 18px;
-  color: #00ff41;
-  letter-spacing: 1px;
-  font-weight: bold;
+  content: "Følgende kategorier";
+  font-size: inherit;
 }
 
 /* =======================================================
