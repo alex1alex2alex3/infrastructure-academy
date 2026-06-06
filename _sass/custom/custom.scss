@@ -470,6 +470,33 @@ h2.text-delta::after {
   color: #39ff14 !important;
 }
 /* =======================================================
+   To-kolonne layout (kommando + info) på højreside
+   ======================================================= */
+.command-row {
+  display: flex;
+  gap: 25px;
+  align-items: flex-start;
+}
+
+.command-box {
+  flex: 3;
+}
+
+.info-box {
+  flex: 1;
+
+  background: rgba(0,0,0,0.35);
+
+  border: 1px solid rgba(0,255,65,0.20);
+
+  border-radius: 12px;
+
+  padding: 20px;
+
+  box-shadow:
+    0 0 10px rgba(0,255,65,0.10);
+}
+/* =======================================================
    Mobilversion
    ======================================================= */
 
