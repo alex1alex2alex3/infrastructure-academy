@@ -11,7 +11,7 @@ parent: Firewall
             border-radius:8px;
             margin-bottom:20px;
             box-shadow:0 0 10px #00ff00;
-            max-width:1200px;
+            max-width:1500px;
             width:100%;">
 
 🚧 <strong>Under opbygning</strong><br>
