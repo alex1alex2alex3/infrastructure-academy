@@ -503,6 +503,24 @@ h2.text-delta::after {
   top: 83px;
   height: 316px;
   margin-left: -20px;
+
+.info-box2 {
+  width: 27%;
+  flex: none;
+
+  background: rgba(0,0,0,0.35);
+  border: 1px solid rgba(0,255,65,0.20);
+  border-radius: 12px;
+
+  padding: 20px;
+
+  box-shadow:   
+    0 0 10px rgba(0,255,65,0.10);
+  
+  position: relative;
+  top: 83px;
+  height: 316px;
+  margin-left: -20px;
    
 }
 
