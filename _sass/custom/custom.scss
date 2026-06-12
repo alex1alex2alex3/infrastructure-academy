@@ -506,6 +506,19 @@ h2.text-delta::after {
 
 } 
 
+.command-row2 {
+  display: flex;
+  gap: 25px;
+  align-items: flex-start;
+  justify-content: space-between;
+
+}
+
+.command-box2 {
+  width: 70%;
+  flex: none;
+}
+
 .info-box2 {
   width: 27%;
   flex: none;
