@@ -1,5 +1,5 @@
 ---
 layout: page
 title: IGDLA
-parent: windows-server
+parent: Windows-server
 ---
