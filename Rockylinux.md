@@ -1,5 +1,5 @@
 ---
 layout: page
 title: Rockylinux
-parent: linux
+parent: Linux
 ---
