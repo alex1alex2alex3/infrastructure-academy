@@ -76,20 +76,22 @@ interface FastEthernet0/2
  switchport mode access
  end
 ```
-
+<div class="command-row2" markdown="1">
+<div class="command-box2" markdown="1">
+            
 ## Verificering
 
 ```cisco
 show vlan brief
 ```
-<div class="info-box2" markdown="1">
-<div class="command-row2" markdown="1">
-<div class="command-box2" markdown="1">
+
+</div>
+
+<div class="info-box2" markdown="1">           
 ### Klar til verificering??
 
 Kopiér kommandoerne og indsæt dem på dit udstyr.
 
-</div>
 </div>
 </div>
 
