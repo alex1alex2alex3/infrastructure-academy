@@ -83,12 +83,13 @@ interface FastEthernet0/2
 show vlan brief
 ```
 <div class="info-box2" markdown="1">
-<div class="command-row" markdown="1">
-<div class="command-box" markdown="1">
+<div class="command-row2" markdown="1">
+<div class="command-box2" markdown="1">
 ### Klar til verificering??
 
 Kopiér kommandoerne og indsæt dem på dit udstyr.
 
+</div>
 </div>
 </div>
 
