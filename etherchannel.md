@@ -2,6 +2,7 @@
 layout: page
 title: Etherchannel
 parent: Netværk
+has_children: true
 ---
 
 <div style="background:#001a00;
