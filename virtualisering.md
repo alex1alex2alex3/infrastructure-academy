@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Virtualisering
+title: Virtuel platform
 has_children: true
 ---
 
