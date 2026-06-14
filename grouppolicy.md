@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Group-regler
-parent: Windows-server
+parent: Windows-Server
 ---
 
 <div style="background:#001a00;
