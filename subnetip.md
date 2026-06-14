@@ -1,7 +1,6 @@
 ---
 layout: page
 title: Subnetting & Adressering
-parent: Subnetting & Adressering
 has_children: true
 ---
 
