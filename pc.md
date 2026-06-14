@@ -2,6 +2,7 @@
 layout: page
 title: PC
 parent: End-devices
+has_children: true
 ---
 
 <div style="background:#001a00;
