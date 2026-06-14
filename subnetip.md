@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Subnet & Adresser
-parent: Subnet & Adresser
+title: Subnetting & Adressering
+parent: Subnetting & Adressering
 has_children: true
 ---
 
