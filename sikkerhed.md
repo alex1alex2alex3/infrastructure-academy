@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Sikkerhed
-has_children: true
+parent: Firewall
 ---
 
 <div style="background:#001a00;
