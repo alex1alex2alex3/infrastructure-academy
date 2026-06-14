@@ -2,6 +2,7 @@
 layout: page
 title: Linux
 has_children: true
+parent: End-devices
 ---
 
 <div style="background:#001a00;
