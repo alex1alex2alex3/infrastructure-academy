@@ -2,6 +2,7 @@
 layout: page
 title: Windows Server
 has_children: true
+parent: Server
 ---
 
 <div style="background:#001a00;
