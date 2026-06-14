@@ -1,7 +1,7 @@
 ---
 layout: page
 title: OSPF
-parent: Netværk
+parent: Routing
 ---
 
 <div style="background:#001a00;
