@@ -1,8 +1,8 @@
 ---
 layout: page
 title: Subnet og Addresser
-has_children: true
 parent: Subnet og Adresser
+has_children: true
 ---
 
 <div style="background:#001a00;
