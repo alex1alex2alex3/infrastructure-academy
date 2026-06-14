@@ -1,5 +1,5 @@
 ---
 layout: page
 title: VLSM
-parent: subnetting
+parent: Subnetting
 ---
