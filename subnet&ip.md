@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Subnet & Addresser
+title: Subnet & Adresser
 parent: Subnet & Adresser
 has_children: true
 ---
