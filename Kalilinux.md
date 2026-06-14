@@ -1,5 +1,5 @@
 ---
 layout: page
 title: KaliLinux
-parent: Linux
+parent: End-devices
 ---
