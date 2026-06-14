@@ -1,5 +1,5 @@
 ---
 layout: page
 title: Subnet
-parent: subnetting
+parent: Subnetting
 ---
