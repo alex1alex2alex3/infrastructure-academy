@@ -551,6 +551,22 @@ hr {
 
 }
 
+/* Alt bliver lidt mørkere */
+.nav-list .nav-list-link {
+    opacity: 0.35;
+    transition: opacity 0.3s ease;
+}
+
+/* Aktiv gren bliver normal */
+.nav-list .nav-list-item.active .nav-list-link {
+    opacity: 1;
+}
+
+/* Aktiv side */
+.nav-list .nav-list-link.active {
+    opacity: 1;
+}
+
 /* =======================================================
    Mobilversion
    ======================================================= */
