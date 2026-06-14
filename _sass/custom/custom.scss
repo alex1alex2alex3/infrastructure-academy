@@ -551,19 +551,19 @@ hr {
 
 }
 
-/* Alt bliver lidt mørkere */
+/* Standard */
 .nav-list .nav-list-link {
-    opacity: 0.8;
+    opacity: 1;
     transition: opacity 0.3s ease;
 }
 
-/* Aktiv gren bliver normal */
-.nav-list .nav-list-item.active .nav-list-link {
-    opacity: 1;
+/* Kun når der er en aktiv grøn */
+.nav-list .nav-list-item:not(.active) > .nav-list-link {
+    opacity: 0.8;
 }
 
-/* Aktiv side */
-.nav-list .nav-list-link.active {
+/* Aktiv grøn */
+.nav-list .nav-list-item.active .nav-list-link {
     opacity: 1;
 }
 
