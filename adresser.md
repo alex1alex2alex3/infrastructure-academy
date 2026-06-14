@@ -2,7 +2,7 @@
 layout: page
 title: IP Adresser
 has_children: true
-parent: Subnet og Adresser
+parent: Subnet & Adresser
 ---
 
 <div style="background:#001a00;
