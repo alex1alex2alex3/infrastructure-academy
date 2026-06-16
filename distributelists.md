@@ -1,5 +1,5 @@
 ---
 layout: page
 title: Distribute Lists
-parent: ACL
+parent: ACCESS CONTROL LISTER
 ---
