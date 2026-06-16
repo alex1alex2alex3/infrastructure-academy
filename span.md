@@ -1,5 +1,5 @@
 ---
-page: layout
+layout: page
 title: Span
 parent: Sikkerhed
 ---
