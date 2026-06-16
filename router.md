@@ -1,5 +1,5 @@
 ---
-layout: page
+page: layout
 title: Router
 parent: Netværk
 ---
