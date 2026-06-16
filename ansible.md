@@ -1,5 +1,5 @@
 ---
 layout: page
 title: Ansible
-parent: Linux-Server
+parent: Linux-server
 ---
