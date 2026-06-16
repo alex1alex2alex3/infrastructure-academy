@@ -1,5 +1,5 @@
 ---
-page: layout
+layout: page
 title: IDS
 parent: Sikkerhed
 ---
