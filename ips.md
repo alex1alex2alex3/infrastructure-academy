@@ -1,5 +1,5 @@
 ---
-page: layout
+layout: page
 title: IPS
 parent: Sikkerhed
 ---
