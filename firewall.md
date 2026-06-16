@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Firewall
+parent: Sikkerhed
 has_children: true
 ---
 
