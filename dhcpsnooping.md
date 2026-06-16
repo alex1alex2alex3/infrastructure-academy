@@ -1,5 +1,5 @@
 ---
-page: layout
+layout: page
 title: DHCP Snooping
 parent: Sikkerhed
 ---
