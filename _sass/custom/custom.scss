@@ -569,11 +569,9 @@ hr {
 
 
 /*citat på hjemmesiden i højreside. Bemærk: Netværksguides og konfigurationseksempler tager primært udgangspunkt i Cisco IOS, medmindre andet er angivet.*/
-
-p {
-     color: #D70000 !important;
+.cisco-note p {
+    color: #D70000 !important;
 }
-
 
 
 /* =======================================================
