@@ -14,7 +14,7 @@ Find dokumentation, labs og guides inden for it infrastruktur
 ## 🚀 KATEGORIER
 
 ### <span class="big-emoji">🖧</span> Netværk
-Routing, Switching, VLAN, Trunk, layer2, layer3 og meget mere. 
+Routing, Switching, VLAN, Vlan-Trunk, layer2, layer3 og meget mere. 
 <blockquote class="cisco-note">
   <p>Bemærk: Netværksguides og konfigurationseksempler tager primært udgangspunkt i Cisco IOS, medmindre andet er angivet.</p>
 </blockquote>
