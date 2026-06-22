@@ -13,23 +13,19 @@ Find dokumentation, labs og guides inden for it infrastruktur
 
 ## 🚀 KATEGORIER
 
-### <span class="big-emoji">🖧</span> Networking
-Routing, Switching, VLAN, OSPF, BGP
+### <span class="big-emoji">🖧</span> Netværk
+> Bemærk: Netværksguides og konfigurationseksempler tager primært udgangspunkt i Cisco IOS, medmindre andet er angivet.
 
 ### <span class="big-emoji">🔥</span> Firewall
-ACL, NAT, Port Forwarding, DMZ
 
 ### <span class="big-emoji">🖥️</span> Windows Server
-AD, DNS, DHCP, DFS
 
 ### <span class="big-emoji">🐧</span> Linux
-SSH, Docker, Firewall
 
 ### <span class="big-emoji">☁️</span> Cloud
-Azure, Entra ID, M365
+
 
 ### <span class="big-emoji">🧪</span> Labs
-GNS3, pfSense, Hyper-V
 
 ---
 <div style="background:#001a00;
@@ -52,10 +48,6 @@ Nyt indhold, labs og dokumentation tilføjes løbende.
 ### 📌 Populære emner
 
 * 🌐 VLAN-konfiguration
-* 🌐 OSPF Routing
-* 🔥 pfSense NAT
-* 🔒 ACL-regler
-* 🪟 Active Directory
 * 🐧 SSH og Linux Services
 
 ---
