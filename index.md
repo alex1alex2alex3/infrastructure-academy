@@ -15,7 +15,9 @@ Find dokumentation, labs og guides inden for it infrastruktur
 
 ### <span class="big-emoji">🖧</span> Netværk
 Routing, Switching, VLAN, Trunk, layer2, layer3 og meget mere. 
-> Bemærk: Netværksguides og konfigurationseksempler tager primært udgangspunkt i Cisco IOS, medmindre andet er angivet.
+<blockquote class="cisco-note">
+  <p>Bemærk: Netværksguides og konfigurationseksempler tager primært udgangspunkt i Cisco IOS, medmindre andet er angivet.</p>
+</blockquote>
 
 ### <span class="big-emoji">🔥</span> Firewall
 
