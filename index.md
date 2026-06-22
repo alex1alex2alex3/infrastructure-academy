@@ -14,6 +14,7 @@ Find dokumentation, labs og guides inden for it infrastruktur
 ## 🚀 KATEGORIER
 
 ### <span class="big-emoji">🖧</span> Netværk
+Routing, Switching, VLAN, Trunk, layer2, layer3 og meget mere. 
 > Bemærk: Netværksguides og konfigurationseksempler tager primært udgangspunkt i Cisco IOS, medmindre andet er angivet.
 
 ### <span class="big-emoji">🔥</span> Firewall
@@ -48,7 +49,7 @@ Nyt indhold, labs og dokumentation tilføjes løbende.
 ### 📌 Populære emner
 
 * 🌐 VLAN-konfiguration
-* 🐧 SSH og Linux Services
+
 
 ---
 
