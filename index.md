@@ -20,12 +20,13 @@ Routing, Switching, VLAN, Trunk, layer2, layer3 og meget mere.
 </blockquote>
 
 ### <span class="big-emoji">🔥</span> Sikkerhed
+Find dukomentation på de forskellige lag i osi-modellen samt firewall, IDS/IPS og Kryprografi 
 
 ### <span class="big-emoji">🖥️</span> PC
 windows, kali-linux, Rocky-linux.
 
 ### <span class="big-emoji">🐧</span> Linux
-Ansible, Asterisk, filserver, Web og email. 
+Ansible, Asterisk, filserver, Web, email og docker 
 
 ### <span class="big-emoji">☁️</span> Cloud
 
