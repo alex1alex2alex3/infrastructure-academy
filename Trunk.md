@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Vlan Trunk
-parent: Netværk
+title: Trunk
+parent: VLAN
 ---
 
 
