@@ -2,6 +2,7 @@
 layout: page
 title: VLAN
 parent: Netværk
+has_children: true
 ---
 
 <div style="background:#001a00;
