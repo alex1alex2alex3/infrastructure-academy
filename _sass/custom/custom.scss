@@ -220,6 +220,17 @@ body {
   width: 100% !important;
   max-width: none !important;
 
+
+/* ---------------------------------
+      TEXTpå hjemmesiden, 
+   --------------------------------- */
+
+.main-content p {
+   max-width: 1000px; 
+   line-height: 1.8;
+
+}
+      
   /* Plads under drage og søgefelt */
   padding-top: 400px !important;
 }
