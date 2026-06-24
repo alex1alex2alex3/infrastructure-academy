@@ -177,7 +177,6 @@ body {
   opacity: 0.9;
 }
 
-.search-input,
 .search-input-wrap {
   height: 100% !important;
   background: transparent !important;
@@ -219,7 +218,9 @@ body {
 .main-content {
   width: 100% !important;
   max-width: none !important;
-
+   
+  /* Plads under drage og søgefelt */
+  padding-top: 400px !important;
 }
 
 /* ---------------------------------
@@ -232,9 +233,7 @@ body {
    border: 2px solid red !important;
 }
       
-  /* Plads under drage og søgefelt */
-  padding-top: 400px !important;
-}
+
 
 /* -------------------------------------------
    billede af osimodellen under emne osimodel 
