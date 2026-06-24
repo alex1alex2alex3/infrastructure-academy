@@ -17,6 +17,10 @@ Ved at arbejde systematisk lag for lag bliver det nemmere at opbygge et stabilt,
 
 Derfor er livet bare lidt nemmere med en OSI-model.
 
+Bemærk: Efterhånden som dit netværk vokser, vil din OSI-model sandsynligvis blive fyldt med teknologier, protokoller og services. Det er helt naturligt og ofte et tegn på, at din dokumentation og forståelse af netværket er blevet mere detaljeret.
+
+Når du når dertil, behøver du ikke nødvendigvis at fortsætte med at indsætte alle de teknologier og protokoller, du anvender. Forhåbentlig har du på det tidspunkt opbygget en så god forståelse af OSI-modellen, at du blot kan gennemgå den lag for lag og fokusere på design, drift, fejlfinding, sikkerhed og best practice.
+
 - Ali
 
 <figure>
