@@ -1,6 +1,6 @@
 ---
 layout: page
 title: OSI Model
-parent: 
 ---
 
+<img src="/assets/images/osimodel.png" alt="OSI-modellen">
