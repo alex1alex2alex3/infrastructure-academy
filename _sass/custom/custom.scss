@@ -499,11 +499,9 @@ h2.text-delta::after {
    Trunk page
    ======================================================= */
 
-.trunk-page p {
-   display: flex; 
-    margin: 2rem auto;
-    max-width: 100%;
-    height: auto;
+.trunk-page img[src*="802.1q2billede.png"] {
+    position: relative;
+    left: 80px;
 }
 
 /* =======================================================
