@@ -30,3 +30,4 @@ trunk-forbindelse.
 Når en Ethernet-frame sendes over en 802.1Q trunk, indsættes et 4-byte
 802.1Q-tag i Ethernet-framen.  
 
+![802.1Q Ethernet-frame](assets/images/802.1qbillede.png)
