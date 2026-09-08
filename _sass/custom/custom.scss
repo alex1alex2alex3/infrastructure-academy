@@ -500,6 +500,7 @@ h2.text-delta::after {
    ======================================================= */
 
 .trunk-page p {
+   display: flex; 
     margin: 2rem auto;
     max-width: 100%;
     height: auto;
