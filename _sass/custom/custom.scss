@@ -499,11 +499,16 @@ h2.text-delta::after {
    Trunk page
    ======================================================= */
 
+/* Flytter kun det nederste 802.1Q-billede */
 .trunk-page img[src*="802.1q2billede.png"] {
     position: relative;
     left: 35px;
 }
 
+/* Ændrer baggrunden kun når Trunk-siden vises */
+#main-content:has(.trunk-page) {
+    background-color: #121212;
+}
 /* =======================================================
    To-kolonne layout (kommando + info) på højreside
    ======================================================= */
