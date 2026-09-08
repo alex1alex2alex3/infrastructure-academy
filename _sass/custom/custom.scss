@@ -505,11 +505,11 @@ h2.text-delta::after {
     left: 35px;
 }
 
-/* Ændrer baggrunden kun når Trunk-siden vises */
+/* Baggrund KUN på Trunk-siden */
 .main:has(.trunk-page),
 .main-content-wrap:has(.trunk-page),
 #main-content.main-content:has(.trunk-page) {
-    background-color: rgb(0-255, 0-255, 0-255);
+    background-color: rgb(223, 221, 138) !important;
 }
 /* =======================================================
    To-kolonne layout (kommando + info) på højreside
