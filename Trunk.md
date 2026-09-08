@@ -3,11 +3,7 @@ layout: page
 title: Trunk
 parent: VLAN
 ---
----
-layout: page
-title: Trunk
-parent: VLAN
----
+
 
 <div class="trunk-page" markdown="1">
 
