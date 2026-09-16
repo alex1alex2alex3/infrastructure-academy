@@ -53,4 +53,6 @@ TCI (Tag Control Information) er også 16 bits og består af tre felter. Feltern
 
 </div>
 
+
+
 # OPSÆTNING AF EN TRUNK (SWITCH - L3 SW) 
