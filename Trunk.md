@@ -55,4 +55,6 @@ TCI (Tag Control Information) er også 16 bits og består af tre felter. Feltern
 
 
 
+
+
 # OPSÆTNING AF EN TRUNK (SWITCH - L3 SW) 
