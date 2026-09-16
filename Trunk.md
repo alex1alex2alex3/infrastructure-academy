@@ -37,19 +37,21 @@ Når en Ethernet-frame sendes over en 802.1Q trunk, indsættes et 4-byte
 ![802.1Q Ethernet-frame](assets/images/802.1q2billede.png)
 
 ### TPID 
-TPID (Tag Protocol Identifier) er 16 bits.
 
-Ved almindelig 802.1Q VLAN-tagging er værdien: 0x8100
+TPID (Tag Protocol Identifier) er 16 bits.  
+
+Ved almindelig 802.1Q VLAN-tagging er værdien: 0x8100  
 
 Denne værdi fortæller, at Ethernet-framen indeholder et 802.1Q-tag.
 
 ### TCI
 
-TCI (Tag Control Information) er også 16 bits og består af tre felter.
+TCI (Tag Control Information) er også 16 bits og består af tre felter. 
+
 Felterne bruges til forskellige ting:
 
-PCP (Priority Code Point) → QoS-prioritet
-DEI (Drop Eligible Indicator) → om framen er markeret som drop eligible
-VLAN ID → hvilket VLAN framen tilhører
+- PCP (Priority Code Point) → QoS-prioritet
+- DEI (Drop Eligible Indicator) → om framen er markeret som drop eligible
+- VLAN ID → hvilket VLAN framen tilhører
 
 </div>
